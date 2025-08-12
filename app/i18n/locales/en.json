@@ -1,0 +1,295 @@
+{
+	"meta": {
+		"title": "Receptia - AI & Digital Agency | Automation & Artificial Intelligence",
+		"description": "Agency specialized in artificial intelligence and automation. Custom AI solutions, intelligent chatbots, process automation. Transform your business."
+	},
+	"nav": {
+		"home": "Home",
+		"portfolio": "Portfolio",
+		"services": "Services",
+		"about": "About",
+		"pricing": "Pricing",
+		"process": "Process",
+		"faq": "FAQ",
+		"contact": "Contact"
+	},
+	"hero": {
+		"headline": "Transform your business with AI",
+		"subtitle": "Automate your tasks, focus on what matters. Fast AI solutions, easy to use.",
+		"segments": ["for SMEs", "for creators", "for nonprofits", "for startups"],
+		"cta": {
+			"primary": "Discover our AI solutions",
+			"secondary": "Free demo"
+		},
+		"trust": "Average rating 4.9/5 on {{count}} delivered projects"
+	},
+	"offer": {
+		"title": "Artificial Intelligence Solutions",
+		"subtitle": "Digitalization • Automation • Innovation",
+		"popular": "Most requested",
+		"includes": {
+			"title": "Our AI expertise",
+			"items": [
+				"Intelligent virtual assistants",
+				"Advanced conversational chatbots",
+				"Business process automation",
+				"Predictive data analysis",
+				"Automatic image/text processing",
+				"AI integration in existing tools"
+			]
+		},
+		"cta": "Start your AI transformation"
+	},
+	"process": {
+		"title": "A simple journey, from idea to launch",
+		"subtitle": "6 clear steps for your project",
+		"steps": {
+			"discovery": {
+				"title": "Discovery",
+				"desc": "Discussion about your needs and goals"
+			},
+			"framing": {
+				"title": "Framing",
+				"desc": "Scope and timeline definition"
+			},
+			"design": {
+				"title": "Design",
+				"desc": "Creating your visual identity"
+			},
+			"development": {
+				"title": "Development",
+				"desc": "Coding and integrating your site"
+			},
+			"review": {
+				"title": "Review",
+				"desc": "Testing and final adjustments"
+			},
+			"launch": {
+				"title": "Launch",
+				"desc": "Deployment and training"
+			}
+		},
+		"stats": {
+			"delivered": "{{count}} sites delivered",
+			"avgDays": "{{days}} days on average"
+		}
+	},
+	"services": {
+		"title": "Our AI & Digital solutions",
+		"subtitle": "Transform your business with artificial intelligence",
+		"items": {
+			"ai_assistant": {
+				"title": "AI Assistants & Chatbots",
+				"desc": "Automate your customer service 24/7 with AI",
+				"price": "From €2000"
+			},
+			"ai_automation": {
+				"title": "AI Automation",
+				"desc": "Optimize your business processes with AI",
+				"price": "Custom quote"
+			},
+			"ai_analysis": {
+				"title": "AI Data Analysis",
+				"desc": "Predictions and insights with machine learning",
+				"price": "From €3000"
+			},
+			"ai_apps": {
+				"title": "AI Applications",
+				"desc": "Mobile and web apps powered by AI",
+				"price": "Custom quote"
+			},
+			"showcase": {
+				"title": "Classic showcase websites",
+				"desc": "Economical solution for your online presence",
+				"price": "€800 all inclusive"
+			},
+			"ai_integration": {
+				"title": "AI Integration",
+				"desc": "Add AI to your existing tools",
+				"price": "From €1500/month"
+			}
+		}
+	},
+	"testimonials": {
+		"title": "They trust us",
+		"subtitle": "Over 120 successfully delivered projects"
+	},
+	"faq": {
+		"title": "Frequently asked questions",
+		"items": {
+			"ai_benefits": {
+				"q": "What are the concrete benefits of AI for my business?",
+				"a": "AI automates repetitive tasks, improves 24/7 customer service, analyzes data for valuable insights, and reduces operational costs by up to 60%."
+			},
+			"ai_implementation": {
+				"q": "How long does it take to implement an AI solution?",
+				"a": "For chatbot or AI assistant: 2-3 weeks. For process automation: 3-6 weeks. For complex analysis solutions: 1-3 months depending on scope."
+			},
+			"ai_cost": {
+				"q": "How much does a custom AI solution cost?",
+				"a": "Smart chatbot: from €2000. AI automation: custom quote based on complexity. Predictive analysis: from €3000. We adapt our solutions to your budget."
+			},
+			"ai_maintenance": {
+				"q": "Who maintains and updates the AI solutions?",
+				"a": "We handle maintenance, updates and continuous improvement of your AI solutions. Training included for your team."
+			},
+			"ai_integration": {
+				"q": "Can AI integrate with my existing tools?",
+				"a": "Absolutely! Our AI solutions integrate with your existing CRM, ERP, management tools via API. No need to change everything."
+			},
+			"showcase_still": {
+				"q": "Do you still offer classic showcase websites?",
+				"a": "Yes, our €800 showcase website offer remains available. But we recommend adding AI features to maximize your results."
+			}
+		}
+	},
+	"cta": {
+		"title": "Ready to start your project?",
+		"subtitle": "Join {{count}}+ companies that trust us",
+		"primary": "Get a free quote",
+		"secondary": "Discuss my project"
+	},
+	"footer": {
+		"company": "Receptia",
+		"tagline": "Your trusted AI & Digital partner",
+		"links": {
+			"legal": "Legal notice",
+			"privacy": "Privacy policy",
+			"terms": "Terms",
+			"sitemap": "Sitemap"
+		},
+		"contact": {
+			"title": "Contact",
+			"email": "contact@receptia.fr",
+			"phone": "+33 1 23 45 67 89",
+			"hours": "Mon-Fri 9am-6pm"
+		},
+		"social": {
+			"title": "Follow us"
+		},
+		"newsletter": {
+			"title": "Newsletter",
+			"placeholder": "Your email",
+			"button": "Subscribe",
+			"consent": "By subscribing, you accept our privacy policy"
+		},
+		"copyright": "© {{year}} Receptia. All rights reserved."
+	},
+	"404": {
+		"title": "Page not found",
+		"subtitle": "The page you're looking for doesn't exist or has been moved.",
+		"cta": "Back to home",
+		"alternatives": "You might be looking for:"
+	},
+	"contact": {
+		"title": "Let's talk about your project",
+		"subtitle": "Guaranteed response within 24 business hours",
+		"form": {
+			"name": "Your name",
+			"email": "Email",
+			"phone": "Phone (optional)",
+			"company": "Company",
+			"project": "Describe your project",
+			"budget": "Estimated budget",
+			"budgetOptions": {
+				"showcase": "€800 (showcase site)",
+				"small": "€1000-5000",
+				"medium": "€5000-15000",
+				"large": "€15000+",
+				"discuss": "To discuss"
+			},
+			"timeline": "Desired timeline",
+			"timelineOptions": {
+				"asap": "As soon as possible",
+				"month": "Within 1 month",
+				"quarter": "Within 3 months",
+				"flexible": "Flexible"
+			},
+			"submit": "Send request",
+			"sending": "Sending...",
+			"success": "Message sent! We'll get back to you very soon.",
+			"error": "An error occurred. Please try again."
+		},
+		"alternatives": {
+			"title": "Other ways to contact us",
+			"phone": "By phone",
+			"email": "By email",
+			"meeting": "Book a slot"
+		}
+	},
+	"about": {
+		"title": "About Receptia",
+		"mission": {
+			"title": "Our mission",
+			"content": "Making the web accessible to everyone with professional solutions at the right price."
+		},
+		"values": {
+			"title": "Our values",
+			"transparency": {
+				"title": "Transparency",
+				"desc": "Clear pricing, open process, direct communication"
+			},
+			"quality": {
+				"title": "Quality",
+				"desc": "Clean code, careful design, optimal performance"
+			},
+			"speed": {
+				"title": "Speed",
+				"desc": "Delivery in days, without compromise"
+			},
+			"support": {
+				"title": "Support",
+				"desc": "Training and support for your autonomy"
+			}
+		},
+		"team": {
+			"title": "The team",
+			"subtitle": "Passionate experts at your service"
+		},
+		"stack": {
+			"title": "Our tech stack",
+			"subtitle": "Modern technologies for high-performance sites"
+		}
+	},
+	"pricing": {
+		"title": "Transparent pricing",
+		"subtitle": "Clear offers, no surprises",
+		"showcase": {
+			"title": "Showcase site",
+			"price": "€800",
+			"period": "all inclusive",
+			"popular": "Most popular",
+			"features": [
+				"Unlimited pages",
+				"Custom design",
+				"100% responsive",
+				"Basic SEO",
+				"Training included",
+				"1 year free hosting",
+				"30-day support"
+			],
+			"cta": "Choose this offer"
+		},
+		"custom": {
+			"title": "Custom",
+			"price": "Quote",
+			"subtitle": "Web apps, mobile, CRM...",
+			"cta": "Request a quote"
+		}
+	},
+	"portfolio": {
+		"title": "Our work",
+		"subtitle": "Real projects, measurable results",
+		"filters": {
+			"all": "All",
+			"showcase": "Showcase sites",
+			"ecommerce": "E-commerce",
+			"webapp": "Applications",
+			"mobile": "Mobile"
+		},
+		"cta": "View project",
+		"results": "Results",
+		"testimonial": "Client testimonial",
+		"similar": "I want a similar site"
+	}
+}

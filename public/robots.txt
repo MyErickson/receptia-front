@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://receptia.fr/sitemap.xml
+
+# Block admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_private/
+
+# Allow SEO-friendly URLs
+Allow: /services
+Allow: /portfolio
+Allow: /pricing
+Allow: /about
+Allow: /contact
+Allow: /blog
+Allow: /faq
+Allow: /process
+
+# Crawl delay
+Crawl-delay: 1
