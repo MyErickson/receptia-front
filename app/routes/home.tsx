@@ -5,9 +5,10 @@ import { CountUp } from "~/components/animations/TextAnimation";
 import AnimatedHeroTitle from "~/components/ui/AnimatedHeroTitle";
 import { Button } from "~/components/ui/Button";
 import { Card } from "~/components/ui/Card";
-import LazyHeroAnimation3D from "~/components/ui/LazyHeroAnimation3D";
+import HeroAnimation3D from "~/components/ui/HeroAnimation3D";
 import { Section, SectionHeader } from "~/components/ui/Section";
-import { generateMeta, organizationSchema, websiteSchema } from "~/utils/seo";
+import { generateMeta } from "~/utils/seo";
+import { generateOrganizationSchema, generateWebsiteSchema } from "~/utils/structured-data";
 import type { Route } from "./+types/home";
 
 export function meta(_: Route.MetaArgs) {
@@ -16,15 +17,17 @@ export function meta(_: Route.MetaArgs) {
 			"Receptia - Agence IA & Digital | Automatisation & Intelligence Artificielle",
 		description:
 			"Agence spécialisée en intelligence artificielle et automatisation. Solutions IA sur mesure, chatbots intelligents, automatisation des processus. Transformez votre entreprise.",
+		url: "/",
 		keywords: [
 			"intelligence artificielle",
-			"automatisation IA",
+			"automatisation IA", 
 			"chatbots intelligents",
 			"solutions IA",
 			"digitalisation entreprise",
 			"agence IA",
 			"développement IA",
 		],
+		canonical: true,
 	});
 }
 
@@ -32,11 +35,11 @@ export const handle = {
 	scripts: () => [
 		{
 			type: "application/ld+json",
-			innerHTML: JSON.stringify(organizationSchema),
+			innerHTML: JSON.stringify(generateOrganizationSchema()),
 		},
 		{
 			type: "application/ld+json",
-			innerHTML: JSON.stringify(websiteSchema),
+			innerHTML: JSON.stringify(generateWebsiteSchema()),
 		},
 	],
 };
@@ -91,61 +94,58 @@ export default function Home() {
 
 	const processSteps = [
 		{
-			id: "discovery",
-			icon: "🔍",
-			title: t("process.steps.discovery.title"),
-			desc: t("process.steps.discovery.desc"),
+			id: "ai_analysis",
+			icon: "🤖",
+			title: "Analyse des besoins IA",
+			desc: "Audit de vos processus métier et identification des opportunités d'automatisation IA",
 		},
 		{
-			id: "framing",
-			icon: "📋",
-			title: t("process.steps.framing.title"),
-			desc: t("process.steps.framing.desc"),
+			id: "ai_strategy",
+			icon: "🧠",
+			title: "Stratégie IA personnalisée",
+			desc: "Conception d'une roadmap IA adaptée à vos objectifs et contraintes techniques",
 		},
 		{
-			id: "design",
-			icon: "🎨",
-			title: t("process.steps.design.title"),
-			desc: t("process.steps.design.desc"),
-		},
-		{
-			id: "development",
+			id: "ai_prototype",
 			icon: "⚡",
-			title: t("process.steps.development.title"),
-			desc: t("process.steps.development.desc"),
+			title: "Prototype IA rapide",
+			desc: "Développement d'un MVP IA pour valider les concepts et mesurer l'impact",
 		},
 		{
-			id: "review",
-			icon: "✅",
-			title: t("process.steps.review.title"),
-			desc: t("process.steps.review.desc"),
+			id: "ai_integration",
+			icon: "🔗",
+			title: "Intégration & déploiement",
+			desc: "Intégration de l'IA dans vos systèmes existants avec formation de vos équipes",
 		},
 		{
-			id: "launch",
+			id: "ai_optimization",
+			icon: "📊",
+			title: "Optimisation continue",
+			desc: "Monitoring des performances IA et amélioration continue des algorithmes",
+		},
+		{
+			id: "ai_scaling",
 			icon: "🚀",
-			title: t("process.steps.launch.title"),
-			desc: t("process.steps.launch.desc"),
+			title: "Montée en charge",
+			desc: "Extension de l'IA à d'autres processus et déploiement à grande échelle",
 		},
 	];
 
 	const testimonials = [
 		{
 			name: "Marie Dubois",
-			role: "CEO, TechStart",
 			content:
 				"Notre chatbot IA a révolutionné notre service client. 80% de demandes traitées automatiquement !",
 			rating: 5,
 		},
 		{
 			name: "Pierre Martin",
-			role: "Fondateur, EcoShop",
 			content:
 				"L'automatisation de nos processus nous fait gagner 15h par semaine. ROI incroyable.",
 			rating: 5,
 		},
 		{
 			name: "Sophie Laurent",
-			role: "Directrice, Wellness Center",
 			content:
 				"L'analyse IA de nos données nous aide à mieux comprendre nos clients. Résultats impressionnants.",
 			rating: 5,
@@ -182,8 +182,8 @@ export default function Home() {
 				{/* Transition gradient to white at bottom */}
 				<div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white to-transparent"></div>
 
-				{/* 3D Animation Layer */}
-				<LazyHeroAnimation3D className="absolute inset-0 -z-10" />
+				{/* Animation Layer - optimisée pour performance */}
+				<HeroAnimation3D className="absolute inset-0 z-0" />
 				<div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
 					<div className="max-w-4xl mx-auto text-center">
 						<motion.div
@@ -236,9 +236,9 @@ export default function Home() {
 								</span>
 							</div>
 							<div className="stats-text bg-white/90 backdrop-blur-sm rounded-xl px-4 py-2 shadow-md border border-gray-200">
-								<CountUp end={5} className="font-bold text-blue-700" />{" "}
+								<CountUp end={3} className="font-bold text-blue-700" />{" "}
 								<span className="text-gray-800 font-semibold">
-									jours en moyenne
+									semaines en moyenne
 								</span>
 							</div>
 						</motion.div>
@@ -357,24 +357,24 @@ export default function Home() {
 									<Card
 										hover={true}
 										delay={index * 0.1}
-										className="relative group"
+										className="relative group h-full flex flex-col"
 									>
 										{/* Step number badge */}
 										<div className="absolute -top-4 left-6 w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full flex items-center justify-center font-bold text-sm z-20 shadow-lg">
 											{index + 1}
 										</div>
 
-										<div className="pt-4">
+										<div className="pt-4 flex flex-col h-full">
 											<div className="text-4xl mb-4 relative z-10">
 												{step.icon}
 											</div>
 											<h3 className="text-xl font-semibold mb-2 text-gray-800">
 												{step.title}
 											</h3>
-											<p className="text-gray-600 mb-3">{step.desc}</p>
+											<p className="text-gray-600 mb-3 flex-grow">{step.desc}</p>
 
 											{/* Duration badge */}
-											<div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
+											<div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200 mt-auto w-fit">
 												<svg
 													className="w-3 h-3 mr-1"
 													fill="none"
@@ -388,12 +388,12 @@ export default function Home() {
 														d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
 													/>
 												</svg>
-												{index === 0 && "1-2 jours"}
-												{index === 1 && "1 jour"}
-												{index === 2 && "2-3 jours"}
-												{index === 3 && "2-4 jours"}
-												{index === 4 && "1 jour"}
-												{index === 5 && "1 jour"}
+												{index === 0 && "2-3 jours"}
+												{index === 1 && "1-2 jours"}
+												{index === 2 && "3-5 jours"}
+												{index === 3 && "5-7 jours"}
+												{index === 4 && "Continu"}
+												{index === 5 && "2-3 semaines"}
 											</div>
 										</div>
 									</Card>
@@ -439,10 +439,10 @@ export default function Home() {
 								<div className="absolute inset-0 bg-gradient-to-r from-orange-400/20 to-pink-400/20 rounded-xl blur-lg"></div>
 								<div className="relative bg-white/80 backdrop-blur-sm rounded-xl px-6 py-4 border border-orange-100">
 									<CountUp
-										end={5}
+										end={3}
 										className="text-4xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent"
 									/>
-									<p className="text-gray-600 font-medium">jours en moyenne</p>
+									<p className="text-gray-600 font-medium">semaines en moyenne</p>
 								</div>
 							</div>
 						</div>
@@ -461,15 +461,15 @@ export default function Home() {
 					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 						{services.map((service, index) => (
 							<ScrollFloat key={service.id} offset={20}>
-								<Card delay={index * 0.1} className="relative group">
+								<Card delay={index * 0.1} className="relative group h-full flex flex-col">
 									<div className="text-3xl mb-4 relative z-10 p-2 rounded-xl bg-gradient-to-br from-blue-50 to-purple-50 w-fit">
 										{service.icon}
 									</div>
 									<h3 className="text-xl font-semibold mb-2 text-gray-800">
 										{service.title}
 									</h3>
-									<p className="text-gray-600 mb-4">{service.desc}</p>
-									<div className="flex items-center justify-between">
+									<p className="text-gray-600 mb-4 flex-grow">{service.desc}</p>
+									<div className="flex items-center justify-between mt-auto">
 										<p className="font-bold text-lg bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
 											{service.price}
 										</p>
@@ -493,13 +493,13 @@ export default function Home() {
 					<div className="grid md:grid-cols-3 gap-6">
 						{testimonials.map((testimonial, index) => (
 							<ScrollFloat key={index} offset={20 + index * 10}>
-								<Card delay={index * 0.1} className="relative group">
+								<Card delay={index * 0.1} className="relative group h-full flex flex-col">
 									{/* Quote decoration */}
 									<div className="absolute top-4 right-4 w-8 h-8 bg-gradient-to-br from-blue-500/10 to-purple-600/10 rounded-full flex items-center justify-center">
 										<span className="text-blue-400 text-lg">"</span>
 									</div>
 
-									<div className="relative z-10">
+									<div className="relative z-10 h-full flex flex-col">
 										<div className="flex mb-4 space-x-1">
 											{[...Array(testimonial.rating)].map((_, i) => (
 												<span key={i} className="text-yellow-400 text-lg">
@@ -507,15 +507,12 @@ export default function Home() {
 												</span>
 											))}
 										</div>
-										<p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+										<p className="text-gray-700 mb-6 italic text-lg leading-relaxed flex-grow">
 											"{testimonial.content}"
 										</p>
-										<div className="border-t border-gray-100 pt-4">
+										<div className="border-t border-gray-100 pt-4 mt-auto">
 											<p className="font-semibold text-gray-800">
 												{testimonial.name}
-											</p>
-											<p className="text-sm text-blue-600 font-medium">
-												{testimonial.role}
 											</p>
 										</div>
 									</div>
@@ -536,8 +533,7 @@ export default function Home() {
 							<motion.div
 								key={index}
 								initial={{ opacity: 0, y: 20 }}
-								whileInView={{ opacity: 1, y: 0 }}
-								viewport={{ once: true }}
+								animate={{ opacity: 1, y: 0 }}
 								transition={{ delay: index * 0.1 }}
 								className="bg-white rounded-xl p-6 shadow-md"
 							>

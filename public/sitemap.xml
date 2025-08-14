@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://receptia.fr/</loc>
+    <lastmod>2025-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://receptia.fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://receptia.fr/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://receptia.fr/"/>
+  </url>
+  <url>
+    <loc>https://receptia.fr/services</loc>
+    <lastmod>2025-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://receptia.fr/services"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://receptia.fr/en/services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://receptia.fr/services"/>
+  </url>
+  <url>
+    <loc>https://receptia.fr/about</loc>
+    <lastmod>2025-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://receptia.fr/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://receptia.fr/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://receptia.fr/about"/>
+  </url>
+  <url>
+    <loc>https://receptia.fr/contact</loc>
+    <lastmod>2025-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://receptia.fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://receptia.fr/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://receptia.fr/contact"/>
+  </url>
+  <url>
+    <loc>https://receptia.fr/faq</loc>
+    <lastmod>2025-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://receptia.fr/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://receptia.fr/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://receptia.fr/faq"/>
+  </url>
+  <url>
+    <loc>https://receptia.fr/pricing</loc>
+    <lastmod>2025-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://receptia.fr/pricing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://receptia.fr/en/pricing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://receptia.fr/pricing"/>
+  </url>
+  <url>
+    <loc>https://receptia.fr/terms</loc>
+    <lastmod>2025-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://receptia.fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://receptia.fr/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://receptia.fr/terms"/>
+  </url>
+  <url>
+    <loc>https://receptia.fr/privacy</loc>
+    <lastmod>2025-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://receptia.fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://receptia.fr/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://receptia.fr/privacy"/>
+  </url>
+  <url>
+    <loc>https://receptia.fr/legal</loc>
+    <lastmod>2025-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://receptia.fr/legal"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://receptia.fr/en/legal"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://receptia.fr/legal"/>
+  </url>
+</urlset>

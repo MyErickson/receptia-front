@@ -4,6 +4,7 @@ import { Button } from "~/components/ui/Button";
 import { Card } from "~/components/ui/Card";
 import { Section, SectionHeader } from "~/components/ui/Section";
 import { generateMeta } from "~/utils/seo";
+import { generateServiceSchema } from "~/utils/structured-data";
 import type { Route } from "./+types/services";
 
 export function meta(_: Route.MetaArgs) {
@@ -12,16 +13,33 @@ export function meta(_: Route.MetaArgs) {
 			"Services IA - Receptia | Automatisation & Intelligence Artificielle",
 		description:
 			"Nos services IA : chatbots intelligents, automatisation, analyse de données, applications IA sur mesure. Solutions d'intelligence artificielle adaptées à votre entreprise.",
+		url: "/services",
 		keywords: [
 			"services IA",
-			"chatbots intelligents",
+			"chatbots intelligents", 
 			"automatisation IA",
 			"applications IA",
 			"intelligence artificielle",
 			"digitalisation entreprise",
 		],
+		canonical: true,
 	});
 }
+
+export const handle = {
+	scripts: () => [
+		{
+			type: "application/ld+json",
+			innerHTML: JSON.stringify(generateServiceSchema({
+				name: "Solutions Intelligence Artificielle",
+				description: "Services IA complets : chatbots, automatisation, analyse prédictive et applications IA sur mesure pour entreprises.",
+				url: "https://receptia.fr/services",
+				price: "À partir de 2000€",
+				currency: "EUR"
+			})),
+		},
+	],
+};
 
 export default function Services() {
 	const { t } = useTranslation();
@@ -132,7 +150,7 @@ export default function Services() {
 					{services.map((service, index) => (
 						<ScrollFloat key={service.id} offset={20}>
 							<Card
-								className={service.popular ? "border-2 border-indigo-500" : ""}
+								className={`h-full flex flex-col ${service.popular ? "border-2 border-indigo-500" : ""}`}
 								delay={index * 0.1}
 							>
 								{service.popular && (
@@ -148,7 +166,7 @@ export default function Services() {
 								<p className="text-3xl font-bold text-indigo-500 mb-6">
 									{service.price}
 								</p>
-								<ul className="space-y-2 mb-6">
+								<ul className="space-y-2 mb-6 flex-grow">
 									{service.features.map((feature, idx) => (
 										<li
 											key={`${service.id}-feature-${idx}`}
@@ -174,6 +192,7 @@ export default function Services() {
 									to="/contact"
 									variant={service.popular ? "primary" : "secondary"}
 									fullWidth
+									className="mt-auto"
 								>
 									Demander un devis
 								</Button>

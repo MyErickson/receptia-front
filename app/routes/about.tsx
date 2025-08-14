@@ -7,9 +7,17 @@ import type { Route } from "./+types/about";
 
 export function meta(_: Route.MetaArgs) {
 	return generateMeta({
-		title: "À Propos - Receptia | Agence Web Experte",
+		title: "À Propos - Receptia | Agence IA & Digital Experte",
 		description:
-			"Découvrez Receptia, votre agence web de confiance. Notre mission : rendre le web accessible avec des solutions professionnelles au juste prix.",
+			"Découvrez Receptia, votre agence spécialisée en intelligence artificielle. Notre mission : transformer votre entreprise avec des solutions IA innovantes et accessibles.",
+		keywords: [
+			"agence IA",
+			"intelligence artificielle",
+			"équipe experts IA",
+			"chatbots",
+			"automatisation",
+			"solutions digitales",
+		],
 	});
 }
 
@@ -39,20 +47,6 @@ export default function About() {
 		},
 	];
 
-	const technologies = [
-		"React",
-		"TypeScript",
-		"Next.js",
-		"Node.js",
-		"PostgreSQL",
-		"MongoDB",
-		"Docker",
-		"AWS",
-		"Vercel",
-		"Tailwind CSS",
-		"Framer Motion",
-		"GSAP",
-	];
 
 	return (
 		<>
@@ -124,31 +118,6 @@ export default function About() {
 								alt="Équipe Receptia"
 								className="rounded-2xl shadow-xl"
 							/>
-						</div>
-					</div>
-				</div>
-			</Section>
-
-			<Section background="gray">
-				<div className="container mx-auto px-4 sm:px-6 lg:px-8">
-					<SectionHeader
-						title={t("about.stack.title")}
-						subtitle={t("about.stack.subtitle")}
-					/>
-
-					<div className="max-w-4xl mx-auto">
-						<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-							{technologies.map((tech, index) => (
-								<ScrollFloat key={tech} offset={20}>
-									<Card
-										delay={index * 0.05}
-										className="text-center py-4"
-										hover={false}
-									>
-										<span className="font-semibold text-gray-700">{tech}</span>
-									</Card>
-								</ScrollFloat>
-							))}
 						</div>
 					</div>
 				</div>

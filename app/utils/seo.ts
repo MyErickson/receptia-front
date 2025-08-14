@@ -1,4 +1,5 @@
 import type { MetaDescriptor } from "react-router";
+import { generateCanonicalForPage } from "./canonical";
 
 export interface SEOProps {
 	title?: string;
@@ -13,11 +14,12 @@ export interface SEOProps {
 	author?: string;
 	keywords?: string[];
 	noindex?: boolean;
+	canonical?: boolean;
 }
 
 export const generateMeta = ({
-	title = "Receptia - Agence Web | Sites Vitrines 800€",
-	description = "Agence web spécialisée dans la création de sites vitrines à 800€. Livraison rapide, design moderne, SEO optimisé.",
+	title = "Receptia - Agence IA & Digital | Solutions Intelligence Artificielle",
+	description = "Transformez votre entreprise avec nos solutions IA sur mesure : chatbots intelligents, automatisation, analyse prédictive. Expertise en intelligence artificielle pour votre digitalisation.",
 	image = "https://receptia.fr/og-image.jpg",
 	url = "https://receptia.fr",
 	type = "website",
@@ -26,8 +28,9 @@ export const generateMeta = ({
 	publishedTime,
 	modifiedTime,
 	author,
-	keywords = [],
+	keywords = ["intelligence artificielle", "IA", "chatbots", "automatisation", "solutions IA", "digitalisation", "agence IA"],
 	noindex = false,
+	canonical = true,
 }: SEOProps = {}): MetaDescriptor[] => {
 	const meta: MetaDescriptor[] = [
 		{ title },
@@ -73,6 +76,17 @@ export const generateMeta = ({
 		meta.push({ name: "robots", content: "index, follow" });
 	}
 
+	// Add canonical link if requested
+	if (canonical && url) {
+		const canonicalUrl = url.startsWith('http') ? url : `https://receptia.fr${url}`;
+		
+		meta.push({
+			tagName: "link",
+			rel: "canonical",
+			href: canonicalUrl,
+		} as MetaDescriptor);
+	}
+
 	return meta;
 };
 
@@ -88,6 +102,7 @@ export const organizationSchema = {
 	"@context": "https://schema.org",
 	"@type": "Organization",
 	name: "Receptia",
+	description: "Agence spécialisée en intelligence artificielle et solutions digitales. Chatbots, automatisation IA, analyse prédictive.",
 	url: "https://receptia.fr",
 	logo: "https://receptia.fr/logo.png",
 	contactPoint: {
@@ -97,6 +112,11 @@ export const organizationSchema = {
 		availableLanguage: ["French", "English"],
 		areaServed: "FR",
 	},
+	serviceArea: {
+		"@type": "Country",
+		name: "France"
+	},
+	knowsAbout: ["Intelligence Artificielle", "Chatbots", "Automatisation", "Machine Learning", "Solutions IA"],
 	sameAs: [
 		"https://twitter.com/receptia",
 		"https://www.linkedin.com/company/receptia",

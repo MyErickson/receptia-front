@@ -116,47 +116,93 @@ export default function Portfolio() {
 						</div>
 					</div>
 
-					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
 						{filteredProjects.map((project, index) => (
 							<motion.div
 								key={project.id}
 								layout
-								initial={{ opacity: 0, scale: 0.9 }}
-								animate={{ opacity: 1, scale: 1 }}
-								transition={{ duration: 0.3, delay: index * 0.1 }}
+								initial={{ opacity: 0, y: 20 }}
+								animate={{ opacity: 1, y: 0 }}
+								transition={{ duration: 0.5, delay: index * 0.1 }}
+								className="group cursor-pointer flex flex-col h-full"
 							>
-								<Card className="overflow-hidden">
-									<img
-										src={project.image}
-										alt={project.title}
-										className="w-full h-48 object-cover -mt-6 -mx-6 md:-mx-8 mb-6"
-									/>
-									<h3 className="text-xl font-bold mb-2">{project.title}</h3>
-									<p className="text-gray-600 mb-4">{project.description}</p>
-									<div className="flex flex-wrap gap-2 mb-4">
+								<div className="relative mb-6">
+									<div className="relative overflow-hidden shadow-xl">
+										<img
+											src={project.image}
+											alt={project.title}
+											className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+										/>
+										{project.results && (
+											<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+												<p className="text-white font-bold text-lg">
+													📈 {project.results}
+												</p>
+											</div>
+										)}
+									</div>
+									{/* Effet 3D du bas */}
+									<div 
+										className="absolute -bottom-1 left-0 right-0 h-3 bg-gradient-to-b from-gray-400/80 to-gray-500/60" 
+										style={{
+											transform: "perspective(100px) rotateX(45deg)",
+											transformOrigin: "top",
+											zIndex: -1
+										}}
+									></div>
+									<div 
+										className="absolute -bottom-2 left-1 right-1 h-2 bg-gray-300/40 blur-sm"
+										style={{ zIndex: -2 }}
+									></div>
+								</div>
+								
+								<div className="space-y-4 flex-grow flex flex-col">
+									<div>
+										<h3 className="text-2xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
+											{project.title}
+										</h3>
+										<p className="text-gray-600 leading-relaxed">
+											{project.description}
+										</p>
+									</div>
+
+									<div className="flex flex-wrap gap-2">
 										{project.tags.map((tag) => (
 											<span
 												key={tag}
-												className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm"
+												className="px-3 py-1 bg-gradient-to-r from-blue-50 to-purple-50 text-gray-700 rounded-full text-sm border border-gray-200"
 											>
 												{tag}
 											</span>
 										))}
 									</div>
-									{project.results && (
-										<p className="text-indigo-500 font-semibold mb-4">
-											📈 {project.results}
-										</p>
-									)}
+
 									{project.testimonial && (
-										<p className="text-gray-600 italic mb-4">
-											"{project.testimonial}"
-										</p>
+										<div className="relative flex-grow">
+											<div className="absolute -left-2 -top-2 text-4xl text-blue-200">"</div>
+											<p className="text-gray-600 italic pl-4">
+												{project.testimonial}
+											</p>
+										</div>
 									)}
-									<Button to={`/portfolio/${project.id}`} fullWidth>
-										{t("portfolio.cta")}
-									</Button>
-								</Card>
+
+									<div className="pt-4 mt-auto">
+										<a 
+											href={`/portfolio/${project.id}`}
+											className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group"
+										>
+											<span>{t("portfolio.cta")}</span>
+											<svg 
+												className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" 
+												fill="none" 
+												stroke="currentColor" 
+												viewBox="0 0 24 24"
+											>
+												<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+											</svg>
+										</a>
+									</div>
+								</div>
 							</motion.div>
 						))}
 					</div>
@@ -166,14 +212,13 @@ export default function Portfolio() {
 			<Section background="gray">
 				<div className="container mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="max-w-4xl mx-auto text-center">
-						<h2 className="text-3xl font-bold mb-4">
+						<h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
 							Vous avez un projet similaire ?
 						</h2>
 						<p className="text-xl text-gray-600 mb-8">
-							Discutons de vos besoins et créons ensemble votre solution sur
-							mesure.
+							Discutons de vos besoins et créons ensemble votre solution IA sur mesure.
 						</p>
-						<Button size="lg" to="/contact">
+						<Button size="lg" to="/contact" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 border-0">
 							{t("portfolio.similar")}
 						</Button>
 					</div>

@@ -21,7 +21,7 @@ export default function Layout() {
 	const navigation = [
 		{ name: t("nav.home"), to: "/" },
 		{ name: t("nav.services"), to: "/services" },
-		{ name: t("nav.portfolio"), to: "/portfolio" },
+		// { name: t("nav.portfolio"), to: "/portfolio" }, // Temporairement caché
 		{ name: t("nav.about"), to: "/about" },
 		{ name: t("nav.contact"), to: "/contact" },
 	];
@@ -97,10 +97,11 @@ export default function Layout() {
 							<motion.div
 								whileHover={{ scale: 1.02 }}
 								whileTap={{ scale: 0.98 }}
+								className="hidden sm:block"
 							>
 								<Link
 									to="/contact"
-									className="btn-primary shadow-lg hover:shadow-xl transition-all duration-200"
+									className="btn-primary shadow-lg hover:shadow-xl transition-all duration-200 text-sm lg:text-base px-3 lg:px-4 py-2 lg:py-2.5"
 								>
 									{t("hero.cta.primary")}
 								</Link>
@@ -256,7 +257,7 @@ export default function Layout() {
 						</div>
 
 						<div>
-							<h4 className="font-semibold mb-4">{t("nav.services")}</h4>
+							<h4 className="font-semibold mb-4 text-white">{t("nav.services")}</h4>
 							<ul className="space-y-2">
 								<li>
 									<Link
@@ -294,16 +295,8 @@ export default function Layout() {
 						</div>
 
 						<div>
-							<h4 className="font-semibold mb-4">Ressources</h4>
+							<h4 className="font-semibold mb-4 text-white">Ressources</h4>
 							<ul className="space-y-2">
-								<li>
-									<Link
-										to="/portfolio"
-										className="text-gray-400 hover:text-white transition-colors"
-									>
-										{t("nav.portfolio")}
-									</Link>
-								</li>
 								<li>
 									<Link
 										to="/faq"
@@ -320,19 +313,11 @@ export default function Layout() {
 										{t("nav.about")}
 									</Link>
 								</li>
-								<li>
-									<Link
-										to="/pricing"
-										className="text-gray-400 hover:text-white transition-colors"
-									>
-										{t("nav.pricing")}
-									</Link>
-								</li>
 							</ul>
 						</div>
 
 						<div>
-							<h4 className="font-semibold mb-4">
+							<h4 className="font-semibold mb-4 text-white">
 								{t("footer.contact.title")}
 							</h4>
 							<ul className="space-y-2 text-gray-400">
@@ -342,14 +327,6 @@ export default function Layout() {
 										className="hover:text-white transition-colors"
 									>
 										{t("footer.contact.email")}
-									</a>
-								</li>
-								<li>
-									<a
-										href="tel:+33123456789"
-										className="hover:text-white transition-colors"
-									>
-										{t("footer.contact.phone")}
 									</a>
 								</li>
 								<li>{t("footer.contact.hours")}</li>

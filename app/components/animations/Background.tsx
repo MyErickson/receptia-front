@@ -58,8 +58,7 @@ export function ScrollFloat({
 	return (
 		<motion.div
 			initial={{ y: offset, opacity: 0 }}
-			whileInView={{ y: 0, opacity: 1 }}
-			viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+			animate={{ y: 0, opacity: 1 }}
 			transition={{
 				duration: 0.6,
 				ease: "easeOut",

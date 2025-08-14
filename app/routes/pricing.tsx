@@ -7,14 +7,15 @@ import type { Route } from "./+types/pricing";
 
 export function meta(_: Route.MetaArgs) {
 	return generateMeta({
-		title: "Tarifs - Receptia | Site Vitrine 800€ Tout Compris",
+		title: "Tarifs Solutions IA - Receptia | Prix Intelligence Artificielle",
 		description:
-			"Découvrez nos tarifs transparents. Site vitrine professionnel à 800€ tout compris. Applications web et mobile sur devis. Sans surprise, sans frais cachés.",
+			"Découvrez nos tarifs transparents pour solutions IA : chatbots intelligents, automatisation, analyse prédictive. Devis gratuit pour votre projet d'intelligence artificielle.",
 		keywords: [
-			"tarifs web",
-			"prix site internet",
-			"site vitrine 800€",
-			"devis gratuit",
+			"tarifs IA",
+			"prix chatbot",
+			"coût automatisation IA",
+			"devis intelligence artificielle",
+			"solution IA sur mesure",
 		],
 	});
 }

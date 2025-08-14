@@ -32,6 +32,87 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<Meta />
 				<Links />
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: JSON.stringify({
+							"@context": "https://schema.org",
+							"@type": "Organization",
+							"name": "Receptia",
+							"description": "Agence spécialisée en intelligence artificielle et solutions digitales. Chatbots intelligents, automatisation IA, analyse prédictive et applications sur mesure.",
+							"url": "https://receptia.fr",
+							"logo": "https://receptia.fr/logo.png",
+							"image": "https://receptia.fr/og-image.jpg",
+							"foundingDate": "2024",
+							"slogan": "Votre partenaire IA & Digital de confiance",
+							"knowsAbout": [
+								"Intelligence Artificielle",
+								"Chatbots",
+								"Automatisation",
+								"Machine Learning",
+								"Solutions IA",
+								"NLP",
+								"Analyse prédictive",
+								"Applications IA"
+							],
+							"serviceArea": {
+								"@type": "Country",
+								"name": "France"
+							},
+							"areaServed": "FR",
+							"contactPoint": {
+								"@type": "ContactPoint",
+								"telephone": "+33-1-23-45-67-89",
+								"email": "contact@receptia.fr",
+								"contactType": "customer service",
+								"availableLanguage": ["French", "English"],
+								"areaServed": "FR"
+							},
+							"address": {
+								"@type": "PostalAddress",
+								"streetAddress": "123 Avenue de la République",
+								"addressLocality": "Paris",
+								"postalCode": "75011",
+								"addressCountry": "FR"
+							},
+							"sameAs": [
+								"https://twitter.com/receptia",
+								"https://www.linkedin.com/company/receptia",
+								"https://www.facebook.com/receptia"
+							],
+							"hasOfferCatalog": {
+								"@type": "OfferCatalog",
+								"name": "Services IA et Digitalisation",
+								"itemListElement": [
+									{
+										"@type": "Offer",
+										"itemOffered": {
+											"@type": "Service",
+											"name": "Chatbots Intelligents",
+											"description": "Développement de chatbots avec traitement du langage naturel"
+										}
+									},
+									{
+										"@type": "Offer",
+										"itemOffered": {
+											"@type": "Service",
+											"name": "Automatisation IA",
+											"description": "Automatisation de processus métier avec intelligence artificielle"
+										}
+									},
+									{
+										"@type": "Offer",
+										"itemOffered": {
+											"@type": "Service",
+											"name": "Analyse Prédictive",
+											"description": "Solutions d'analyse de données et machine learning"
+										}
+									}
+								]
+							}
+						})
+					}}
+				/>
 			</head>
 			<body>
 				{children}

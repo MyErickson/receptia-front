@@ -226,7 +226,7 @@
 		"title": "À propos de Receptia",
 		"mission": {
 			"title": "Notre mission",
-			"content": "Rendre le web accessible à tous avec des solutions professionnelles au juste prix."
+			"content": "Nous démocratisons l'intelligence artificielle pour transformer chaque entreprise en acteur digital innovant. Notre vision : un monde où l'IA n'est plus un luxe réservé aux géants, mais un levier de croissance accessible qui permet à chaque entrepreneur, PME et organisation de libérer son plein potentiel, automatiser ses processus et offrir des expériences client exceptionnelles."
 		},
 		"values": {
 			"title": "Nos valeurs",
@@ -287,10 +287,12 @@
 		"subtitle": "Des projets concrets, des résultats mesurables",
 		"filters": {
 			"all": "Tous",
+			"ai_assistant": "Assistants IA",
+			"ai_automation": "Automatisation",
+			"ai_analysis": "Analyse IA",
+			"ai_apps": "Applications IA",
 			"showcase": "Sites vitrines",
-			"ecommerce": "E-commerce",
-			"webapp": "Applications",
-			"mobile": "Mobile"
+			"ai_integration": "Intégrations"
 		},
 		"cta": "Voir le projet",
 		"results": "Résultats",

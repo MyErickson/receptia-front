@@ -17,15 +17,19 @@ export function Card({
 	return (
 		<motion.div
 			initial={{ opacity: 0, y: 20 }}
-			whileInView={{ opacity: 1, y: 0 }}
-			viewport={{ once: true }}
+			animate={{ opacity: 1, y: 0 }}
 			transition={{ duration: 0.5, delay }}
-			whileHover={hover ? { 
-				scale: 1.02, 
-				y: -8,
-				boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04)",
-				transition: { duration: 0.2, ease: "easeOut" }
-			} : undefined}
+			whileHover={
+				hover
+					? {
+							scale: 1.02,
+							y: -8,
+							boxShadow:
+								"0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04)",
+							transition: { duration: 0.2, ease: "easeOut" },
+						}
+					: undefined
+			}
 			className={clsx(
 				"bg-white rounded-2xl p-6 md:p-8",
 				"border-2 border-gray-200 shadow-lg",
@@ -92,6 +96,7 @@ export function PricingCard({
 							fill="currentColor"
 							viewBox="0 0 20 20"
 						>
+							<title>Checkmark</title>
 							<path
 								fillRule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -103,6 +108,7 @@ export function PricingCard({
 				))}
 			</ul>
 			<button
+				type="button"
 				onClick={ctaAction}
 				className={clsx(
 					"w-full py-3 rounded-xl font-semibold transition-all duration-200",

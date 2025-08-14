@@ -3,7 +3,12 @@ import type { Route } from "./+types/legal";
 
 export function meta(_: Route.MetaArgs) {
 	return [
-		{ title: "Mentions Légales - Receptia" },
+		{ title: "Mentions Légales - Receptia | Agence IA & Digital" },
+		{
+			name: "description",
+			content:
+				"Mentions légales de Receptia, agence spécialisée en solutions d'intelligence artificielle et digitalisation d'entreprise.",
+		},
 		{ name: "robots", content: "noindex, follow" },
 	];
 }

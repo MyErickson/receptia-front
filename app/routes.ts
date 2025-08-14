@@ -9,8 +9,8 @@ import {
 export default [
 	layout("routes/layout.tsx", [
 		index("routes/home.tsx"),
-		route("portfolio", "routes/portfolio.tsx"),
-		route("portfolio/:id", "routes/portfolio.$id.tsx"),
+		// route("portfolio", "routes/portfolio.tsx"),
+		// route("portfolio/:id", "routes/portfolio.$id.tsx"),
 		route("services", "routes/services.tsx"),
 		route("about", "routes/about.tsx"),
 		route("pricing", "routes/pricing.tsx"),
