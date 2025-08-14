@@ -6,7 +6,7 @@ import { generateRobotsTxt } from "@forge42/seo-tools/robots";
 interface ReactRouterRoute {
   path?: string;
   id: string;
-  module?: any;
+  module?: Record<string, unknown>;
   children?: ReactRouterRoute[];
 }
 
@@ -15,14 +15,14 @@ interface RemixRouteManifest {
     id: string;
     parentId?: string;
     path?: string;
-    module: any;
+    module: Record<string, unknown>;
   };
 }
 
 // Convertit les routes React Router v7 vers le format Remix
 function convertRoutesToRemixFormat(routes: ReactRouterRoute[]): RemixRouteManifest {
   const manifest: RemixRouteManifest = {};
-  
+
   function processRoute(route: ReactRouterRoute, parentId?: string) {
     manifest[route.id] = {
       id: route.id,
@@ -30,19 +30,23 @@ function convertRoutesToRemixFormat(routes: ReactRouterRoute[]): RemixRouteManif
       path: route.path,
       module: route.module || {},
     };
-    
+
     if (route.children) {
-      route.children.forEach(child => processRoute(child, route.id));
+      for (const child of route.children) {
+        processRoute(child, route.id);
+      }
     }
   }
-  
-  routes.forEach(route => processRoute(route));
+
+  for (const route of routes) {
+    processRoute(route);
+  }
   return manifest;
 }
 
 // Routes statiques pour React Router v7 (fallback si import dynamique échoue)
 const staticRoutes: RemixRouteManifest = {
-  "root": {
+  root: {
     id: "root",
     path: "",
     module: {},
@@ -55,14 +59,14 @@ const staticRoutes: RemixRouteManifest = {
   },
   "routes/services": {
     id: "routes/services",
-    parentId: "root", 
+    parentId: "root",
     path: "/services",
     module: {},
   },
   "routes/about": {
     id: "routes/about",
     parentId: "root",
-    path: "/about", 
+    path: "/about",
     module: {},
   },
   "routes/contact": {
@@ -78,7 +82,7 @@ const staticRoutes: RemixRouteManifest = {
     module: {},
   },
   "routes/pricing": {
-    id: "routes/pricing", 
+    id: "routes/pricing",
     parentId: "root",
     path: "/pricing",
     module: {},
@@ -91,14 +95,14 @@ const staticRoutes: RemixRouteManifest = {
   },
   "routes/privacy": {
     id: "routes/privacy",
-    parentId: "root", 
+    parentId: "root",
     path: "/privacy",
     module: {},
   },
   "routes/legal": {
     id: "routes/legal",
     parentId: "root",
-    path: "/legal", 
+    path: "/legal",
     module: {},
   },
 };
@@ -106,21 +110,22 @@ const staticRoutes: RemixRouteManifest = {
 interface SitemapConfig {
   domain: string;
   ignore?: string[];
-  configure?: Record<string, {
-    priority?: number;
-    changefreq?: string;
-  }>;
+  configure?: Record<
+    string,
+    {
+      priority?: number;
+      changefreq?: string;
+    }
+  >;
 }
 
 export async function generateSitemapWithForge42(config: SitemapConfig): Promise<string> {
   let routes: RemixRouteManifest;
-  
+
   try {
     // Essayer d'importer les routes dynamiquement
     const { routes: dynamicRoutes } = await import("virtual:react-router/server-build");
-    routes = Array.isArray(dynamicRoutes) 
-      ? convertRoutesToRemixFormat(dynamicRoutes)
-      : staticRoutes;
+    routes = Array.isArray(dynamicRoutes) ? convertRoutesToRemixFormat(dynamicRoutes) : staticRoutes;
   } catch {
     // Fallback vers les routes statiques
     routes = staticRoutes;
@@ -136,36 +141,13 @@ export async function generateSitemapWithForge42(config: SitemapConfig): Promise
 }
 
 export async function generateRobotsTxtWithForge42(origin: string): Promise<string> {
-  return generateRobotsTxt([
+  return await generateRobotsTxt([
     {
       userAgent: "*",
-      allow: [
-        "/",
-        "/services", 
-        "/about",
-        "/contact",
-        "/faq",
-        "/pricing",
-        "/terms",
-        "/privacy",
-        "/legal",
-      ],
-      disallow: [
-        "/admin/",
-        "/api/",
-        "/_/",
-        "/build/",
-        "/node_modules/",
-        "/*.json$",
-        "/temp/",
-        "/cache/",
-      ],
+      allow: ["/", "/services", "/about", "/contact", "/faq", "/pricing", "/terms", "/privacy", "/legal"],
+      disallow: ["/admin/", "/api/", "/_/", "/build/", "/node_modules/", "/*.json$", "/temp/", "/cache/"],
       crawlDelay: 1,
-      sitemap: [
-        `${origin}/sitemap-index.xml`,
-        `${origin}/sitemap.xml`, 
-        `${origin}/sitemap-ai.xml`,
-      ],
+      sitemap: [`${origin}/sitemap-index.xml`, `${origin}/sitemap.xml`, `${origin}/sitemap-ai.xml`],
     },
     // Bloquer les bots IA agressifs
     {
@@ -173,7 +155,7 @@ export async function generateRobotsTxtWithForge42(origin: string): Promise<stri
       disallow: ["/"],
     },
     {
-      userAgent: "ChatGPT-User", 
+      userAgent: "ChatGPT-User",
       disallow: ["/"],
     },
     {
@@ -193,7 +175,7 @@ export async function generateRobotsTxtWithForge42(origin: string): Promise<stri
       disallow: ["/"],
     },
     {
-      userAgent: "Applebot-Extended", 
+      userAgent: "Applebot-Extended",
       disallow: ["/"],
     },
     {

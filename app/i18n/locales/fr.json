@@ -1,302 +1,297 @@
 {
-	"meta": {
-		"title": "Receptia - Agence Web | Sites Vitrines 800€ | Livraison Rapide",
-		"description": "Agence web spécialisée dans la création de sites vitrines à 800€, applications mobiles et solutions métier. Livraison en quelques jours. Design moderne, SEO optimisé."
-	},
-	"nav": {
-		"home": "Accueil",
-		"portfolio": "Réalisations",
-		"services": "Services",
-		"about": "À propos",
-		"pricing": "Tarifs",
-		"process": "Process",
-		"faq": "FAQ",
-		"contact": "Contact"
-	},
-	"hero": {
-		"headline": "Transformez votre entreprise grâce à l'IA",
-		"subtitle": "Automatisez vos tâches, concentrez-vous sur l'essentiel. Des solutions IA rapides à déployer, simples à utiliser.",
-		"segments": [
-			"pour PME",
-			"pour créateurs",
-			"pour associations",
-			"pour startups"
-		],
-		"cta": {
-			"primary": "Découvrir nos solutions IA",
-			"secondary": "Démo gratuite"
-		},
-		"trust": "Note moyenne 4.9/5 sur {{count}} projets livrés"
-	},
-	"offer": {
-		"title": "Solutions d'Intelligence Artificielle",
-		"subtitle": "Digitalisation • Automatisation • Innovation",
-		"popular": "Le plus demandé",
-		"includes": {
-			"title": "Nos expertises IA",
-			"items": [
-				"Assistants virtuels intelligents",
-				"Chatbots conversationnels avancés",
-				"Automatisation des processus métier",
-				"Analyse prédictive de données",
-				"Traitement automatique d'images/textes",
-				"Intégration IA dans vos outils existants"
-			]
-		},
-		"cta": "Commencer votre transformation IA"
-	},
-	"process": {
-		"title": "Un parcours simple, de l'idée à la mise en ligne",
-		"subtitle": "6 étapes claires pour votre projet",
-		"steps": {
-			"discovery": {
-				"title": "Découverte",
-				"desc": "Échange sur vos besoins et objectifs"
-			},
-			"framing": {
-				"title": "Cadrage",
-				"desc": "Définition du périmètre et planning"
-			},
-			"design": {
-				"title": "Design",
-				"desc": "Création de votre identité visuelle"
-			},
-			"development": {
-				"title": "Développement",
-				"desc": "Codage et intégration de votre site"
-			},
-			"review": {
-				"title": "Recette",
-				"desc": "Tests et ajustements finaux"
-			},
-			"launch": {
-				"title": "Mise en ligne",
-				"desc": "Déploiement et formation"
-			}
-		},
-		"stats": {
-			"delivered": "{{count}} sites livrés",
-			"avgDays": "{{days}} jours en moyenne"
-		}
-	},
-	"services": {
-		"title": "Nos solutions IA & Digital",
-		"subtitle": "Transformez votre entreprise avec l'intelligence artificielle",
-		"items": {
-			"ai_assistant": {
-				"title": "Assistants IA & Chatbots",
-				"desc": "Automatisez votre service client 24/7 avec l'IA",
-				"price": "À partir de 2000€"
-			},
-			"ai_automation": {
-				"title": "Automatisation IA",
-				"desc": "Optimisez vos processus métier avec l'IA",
-				"price": "Sur devis"
-			},
-			"ai_analysis": {
-				"title": "Analyse IA de données",
-				"desc": "Prédictions et insights avec le machine learning",
-				"price": "À partir de 3000€"
-			},
-			"ai_apps": {
-				"title": "Applications IA",
-				"desc": "Apps mobiles et web dopées à l'IA",
-				"price": "Sur devis"
-			},
-			"showcase": {
-				"title": "Sites vitrines classiques",
-				"desc": "Solution économique pour votre présence en ligne",
-				"price": "800€ tout compris"
-			},
-			"ai_integration": {
-				"title": "Intégration IA",
-				"desc": "Ajoutez l'IA à vos outils existants",
-				"price": "À partir de 1500€/mois"
-			}
-		}
-	},
-	"testimonials": {
-		"title": "Ils nous font confiance",
-		"subtitle": "Plus de 120 projets livrés avec succès"
-	},
-	"faq": {
-		"title": "Questions fréquentes",
-		"items": {
-			"ai_benefits": {
-				"q": "Quels sont les bénéfices concrets de l'IA pour mon entreprise ?",
-				"a": "L'IA automatise vos tâches répétitives, améliore votre service client 24/7, analyse vos données pour des insights précieux et réduit vos coûts opérationnels jusqu'à 60%."
-			},
-			"ai_implementation": {
-				"q": "Combien de temps faut-il pour implémenter une solution IA ?",
-				"a": "Pour un chatbot ou assistant IA : 2-3 semaines. Pour l'automatisation de processus : 3-6 semaines. Pour des solutions complexes d'analyse : 1-3 mois selon le périmètre."
-			},
-			"ai_cost": {
-				"q": "Combien coûte une solution IA sur mesure ?",
-				"a": "Chatbot intelligent : à partir de 2000€. Automatisation IA : sur devis selon complexité. Analyse prédictive : à partir de 3000€. Nous adaptons nos solutions à votre budget."
-			},
-			"ai_maintenance": {
-				"q": "Qui maintient et met à jour les solutions IA ?",
-				"a": "Nous assurons la maintenance, les mises à jour et l'amélioration continue de vos solutions IA. Formation incluse pour votre équipe."
-			},
-			"ai_integration": {
-				"q": "L'IA peut-elle s'intégrer à mes outils existants ?",
-				"a": "Absolument ! Nos solutions IA s'intègrent à vos CRM, ERP, outils de gestion existants via API. Pas besoin de tout changer."
-			},
-			"showcase_still": {
-				"q": "Proposez-vous encore des sites vitrines classiques ?",
-				"a": "Oui, notre offre site vitrine à 800€ reste disponible. Mais nous recommandons d'y ajouter des fonctionnalités IA pour maximiser vos résultats."
-			}
-		}
-	},
-	"cta": {
-		"title": "Prêt à démarrer votre projet ?",
-		"subtitle": "Rejoignez les {{count}}+ entreprises qui nous font confiance",
-		"primary": "Obtenir un devis gratuit",
-		"secondary": "Discuter de mon projet"
-	},
-	"footer": {
-		"company": "Receptia",
-		"tagline": "Votre partenaire digital de confiance",
-		"links": {
-			"legal": "Mentions légales",
-			"privacy": "Politique de confidentialité",
-			"terms": "CGV",
-			"sitemap": "Plan du site"
-		},
-		"contact": {
-			"title": "Contact",
-			"email": "contact@receptia.fr",
-			"phone": "+33 1 23 45 67 89",
-			"hours": "Lun-Ven 9h-18h"
-		},
-		"social": {
-			"title": "Suivez-nous"
-		},
-		"newsletter": {
-			"title": "Newsletter",
-			"placeholder": "Votre email",
-			"button": "S'inscrire",
-			"consent": "En vous inscrivant, vous acceptez notre politique de confidentialité"
-		},
-		"copyright": "© {{year}} Receptia. Tous droits réservés."
-	},
-	"404": {
-		"title": "Page introuvable",
-		"subtitle": "La page que vous recherchez n'existe pas ou a été déplacée.",
-		"cta": "Retour à l'accueil",
-		"alternatives": "Vous cherchez peut-être :"
-	},
-	"contact": {
-		"title": "Parlons de votre projet",
-		"subtitle": "Réponse garantie sous 24h ouvrées",
-		"form": {
-			"name": "Votre nom",
-			"email": "Email",
-			"phone": "Téléphone (optionnel)",
-			"company": "Entreprise",
-			"project": "Décrivez votre projet",
-			"budget": "Budget estimé",
-			"budgetOptions": {
-				"showcase": "800€ (site vitrine)",
-				"small": "1000-5000€",
-				"medium": "5000-15000€",
-				"large": "15000€+",
-				"discuss": "À discuter"
-			},
-			"timeline": "Délai souhaité",
-			"timelineOptions": {
-				"asap": "Dès que possible",
-				"month": "Sous 1 mois",
-				"quarter": "Sous 3 mois",
-				"flexible": "Flexible"
-			},
-			"submit": "Envoyer ma demande",
-			"sending": "Envoi en cours...",
-			"success": "Message envoyé ! Nous revenons vers vous très vite.",
-			"error": "Une erreur est survenue. Merci de réessayer."
-		},
-		"alternatives": {
-			"title": "Autres moyens de nous contacter",
-			"phone": "Par téléphone",
-			"email": "Par email",
-			"meeting": "Réserver un créneau"
-		}
-	},
-	"about": {
-		"title": "À propos de Receptia",
-		"mission": {
-			"title": "Notre mission",
-			"content": "Nous démocratisons l'intelligence artificielle pour transformer chaque entreprise en acteur digital innovant. Notre vision : un monde où l'IA n'est plus un luxe réservé aux géants, mais un levier de croissance accessible qui permet à chaque entrepreneur, PME et organisation de libérer son plein potentiel, automatiser ses processus et offrir des expériences client exceptionnelles."
-		},
-		"values": {
-			"title": "Nos valeurs",
-			"transparency": {
-				"title": "Transparence",
-				"desc": "Prix clairs, process ouvert, communication directe"
-			},
-			"quality": {
-				"title": "Qualité",
-				"desc": "Code propre, design soigné, performances optimales"
-			},
-			"speed": {
-				"title": "Rapidité",
-				"desc": "Livraison en quelques jours, sans compromis"
-			},
-			"support": {
-				"title": "Accompagnement",
-				"desc": "Formation et support pour votre autonomie"
-			}
-		},
-		"team": {
-			"title": "L'équipe",
-			"subtitle": "Des experts passionnés à votre service"
-		},
-		"stack": {
-			"title": "Notre stack technique",
-			"subtitle": "Technologies modernes pour des sites performants"
-		}
-	},
-	"pricing": {
-		"title": "Tarifs transparents",
-		"subtitle": "Des offres claires, sans surprise",
-		"showcase": {
-			"title": "Site vitrine",
-			"price": "800€",
-			"period": "tout compris",
-			"popular": "Le plus populaire",
-			"features": [
-				"Pages illimitées",
-				"Design sur mesure",
-				"100% responsive",
-				"SEO de base",
-				"Formation incluse",
-				"Hébergement 1 an offert",
-				"Support 30 jours"
-			],
-			"cta": "Choisir cette offre"
-		},
-		"custom": {
-			"title": "Sur mesure",
-			"price": "Sur devis",
-			"subtitle": "Applications web, mobile, CRM...",
-			"cta": "Demander un devis"
-		}
-	},
-	"portfolio": {
-		"title": "Nos réalisations",
-		"subtitle": "Des projets concrets, des résultats mesurables",
-		"filters": {
-			"all": "Tous",
-			"ai_assistant": "Assistants IA",
-			"ai_automation": "Automatisation",
-			"ai_analysis": "Analyse IA",
-			"ai_apps": "Applications IA",
-			"showcase": "Sites vitrines",
-			"ai_integration": "Intégrations"
-		},
-		"cta": "Voir le projet",
-		"results": "Résultats",
-		"testimonial": "Témoignage client",
-		"similar": "Je veux un site similaire"
-	}
+  "meta": {
+    "title": "Receptia - Agence Web | Sites Vitrines 800€ | Livraison Rapide",
+    "description": "Agence web spécialisée dans la création de sites vitrines à 800€, applications mobiles et solutions métier. Livraison en quelques jours. Design moderne, SEO optimisé."
+  },
+  "nav": {
+    "home": "Accueil",
+    "portfolio": "Réalisations",
+    "services": "Services",
+    "about": "À propos",
+    "pricing": "Tarifs",
+    "process": "Process",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Transformez votre entreprise grâce à l'IA",
+    "subtitle": "Automatisez vos tâches, concentrez-vous sur l'essentiel. Des solutions IA rapides à déployer, simples à utiliser.",
+    "segments": ["pour PME", "pour créateurs", "pour associations", "pour startups"],
+    "cta": {
+      "primary": "Découvrir nos solutions IA",
+      "secondary": "Démo gratuite"
+    },
+    "trust": "Note moyenne 4.9/5 sur {{count}} projets livrés"
+  },
+  "offer": {
+    "title": "Solutions d'Intelligence Artificielle",
+    "subtitle": "Digitalisation • Automatisation • Innovation",
+    "popular": "Le plus demandé",
+    "includes": {
+      "title": "Nos expertises IA",
+      "items": [
+        "Assistants virtuels intelligents",
+        "Chatbots conversationnels avancés",
+        "Automatisation des processus métier",
+        "Analyse prédictive de données",
+        "Traitement automatique d'images/textes",
+        "Intégration IA dans vos outils existants"
+      ]
+    },
+    "cta": "Commencer votre transformation IA"
+  },
+  "process": {
+    "title": "Un parcours simple, de l'idée à la mise en ligne",
+    "subtitle": "6 étapes claires pour votre projet",
+    "steps": {
+      "discovery": {
+        "title": "Découverte",
+        "desc": "Échange sur vos besoins et objectifs"
+      },
+      "framing": {
+        "title": "Cadrage",
+        "desc": "Définition du périmètre et planning"
+      },
+      "design": {
+        "title": "Design",
+        "desc": "Création de votre identité visuelle"
+      },
+      "development": {
+        "title": "Développement",
+        "desc": "Codage et intégration de votre site"
+      },
+      "review": {
+        "title": "Recette",
+        "desc": "Tests et ajustements finaux"
+      },
+      "launch": {
+        "title": "Mise en ligne",
+        "desc": "Déploiement et formation"
+      }
+    },
+    "stats": {
+      "delivered": "{{count}} sites livrés",
+      "avgDays": "{{days}} jours en moyenne"
+    }
+  },
+  "services": {
+    "title": "Nos solutions IA & Digital",
+    "subtitle": "Transformez votre entreprise avec l'intelligence artificielle",
+    "items": {
+      "ai_assistant": {
+        "title": "Assistants IA & Chatbots",
+        "desc": "Automatisez votre service client 24/7 avec l'IA",
+        "price": "À partir de 2000€"
+      },
+      "ai_automation": {
+        "title": "Automatisation IA",
+        "desc": "Optimisez vos processus métier avec l'IA",
+        "price": "Sur devis"
+      },
+      "ai_analysis": {
+        "title": "Analyse IA de données",
+        "desc": "Prédictions et insights avec le machine learning",
+        "price": "À partir de 3000€"
+      },
+      "ai_apps": {
+        "title": "Applications IA",
+        "desc": "Apps mobiles et web dopées à l'IA",
+        "price": "Sur devis"
+      },
+      "showcase": {
+        "title": "Sites vitrines classiques",
+        "desc": "Solution économique pour votre présence en ligne",
+        "price": "800€ tout compris"
+      },
+      "ai_integration": {
+        "title": "Intégration IA",
+        "desc": "Ajoutez l'IA à vos outils existants",
+        "price": "À partir de 1500€/mois"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Ils nous font confiance",
+    "subtitle": "Plus de 120 projets livrés avec succès"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": {
+      "ai_benefits": {
+        "q": "Quels sont les bénéfices concrets de l'IA pour mon entreprise ?",
+        "a": "L'IA automatise vos tâches répétitives, améliore votre service client 24/7, analyse vos données pour des insights précieux et réduit vos coûts opérationnels jusqu'à 60%."
+      },
+      "ai_implementation": {
+        "q": "Combien de temps faut-il pour implémenter une solution IA ?",
+        "a": "Pour un chatbot ou assistant IA : 2-3 semaines. Pour l'automatisation de processus : 3-6 semaines. Pour des solutions complexes d'analyse : 1-3 mois selon le périmètre."
+      },
+      "ai_cost": {
+        "q": "Combien coûte une solution IA sur mesure ?",
+        "a": "Chatbot intelligent : à partir de 2000€. Automatisation IA : sur devis selon complexité. Analyse prédictive : à partir de 3000€. Nous adaptons nos solutions à votre budget."
+      },
+      "ai_maintenance": {
+        "q": "Qui maintient et met à jour les solutions IA ?",
+        "a": "Nous assurons la maintenance, les mises à jour et l'amélioration continue de vos solutions IA. Formation incluse pour votre équipe."
+      },
+      "ai_integration": {
+        "q": "L'IA peut-elle s'intégrer à mes outils existants ?",
+        "a": "Absolument ! Nos solutions IA s'intègrent à vos CRM, ERP, outils de gestion existants via API. Pas besoin de tout changer."
+      },
+      "showcase_still": {
+        "q": "Proposez-vous encore des sites vitrines classiques ?",
+        "a": "Oui, notre offre site vitrine à 800€ reste disponible. Mais nous recommandons d'y ajouter des fonctionnalités IA pour maximiser vos résultats."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à démarrer votre projet ?",
+    "subtitle": "Rejoignez les {{count}}+ entreprises qui nous font confiance",
+    "primary": "Obtenir un devis gratuit",
+    "secondary": "Discuter de mon projet"
+  },
+  "footer": {
+    "company": "Receptia",
+    "tagline": "Votre partenaire digital de confiance",
+    "links": {
+      "legal": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "terms": "CGV",
+      "sitemap": "Plan du site"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "contact@receptia.fr",
+      "phone": "+33 1 23 45 67 89",
+      "hours": "Lun-Ven 9h-18h"
+    },
+    "social": {
+      "title": "Suivez-nous"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Votre email",
+      "button": "S'inscrire",
+      "consent": "En vous inscrivant, vous acceptez notre politique de confidentialité"
+    },
+    "copyright": "© {{year}} Receptia. Tous droits réservés."
+  },
+  "404": {
+    "title": "Page introuvable",
+    "subtitle": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil",
+    "alternatives": "Vous cherchez peut-être :"
+  },
+  "contact": {
+    "title": "Parlons de votre projet",
+    "subtitle": "Réponse garantie sous 24h ouvrées",
+    "form": {
+      "name": "Votre nom",
+      "email": "Email",
+      "phone": "Téléphone (optionnel)",
+      "company": "Entreprise",
+      "project": "Décrivez votre projet",
+      "budget": "Budget estimé",
+      "budgetOptions": {
+        "showcase": "800€ (site vitrine)",
+        "small": "1000-5000€",
+        "medium": "5000-15000€",
+        "large": "15000€+",
+        "discuss": "À discuter"
+      },
+      "timeline": "Délai souhaité",
+      "timelineOptions": {
+        "asap": "Dès que possible",
+        "month": "Sous 1 mois",
+        "quarter": "Sous 3 mois",
+        "flexible": "Flexible"
+      },
+      "submit": "Envoyer ma demande",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé ! Nous revenons vers vous très vite.",
+      "error": "Une erreur est survenue. Merci de réessayer."
+    },
+    "alternatives": {
+      "title": "Autres moyens de nous contacter",
+      "phone": "Par téléphone",
+      "email": "Par email",
+      "meeting": "Réserver un créneau"
+    }
+  },
+  "about": {
+    "title": "À propos de Receptia",
+    "mission": {
+      "title": "Notre mission",
+      "content": "Nous démocratisons l'intelligence artificielle pour transformer chaque entreprise en acteur digital innovant. Notre vision : un monde où l'IA n'est plus un luxe réservé aux géants, mais un levier de croissance accessible qui permet à chaque entrepreneur, PME et organisation de libérer son plein potentiel, automatiser ses processus et offrir des expériences client exceptionnelles."
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "transparency": {
+        "title": "Transparence",
+        "desc": "Prix clairs, process ouvert, communication directe"
+      },
+      "quality": {
+        "title": "Qualité",
+        "desc": "Code propre, design soigné, performances optimales"
+      },
+      "speed": {
+        "title": "Rapidité",
+        "desc": "Livraison en quelques jours, sans compromis"
+      },
+      "support": {
+        "title": "Accompagnement",
+        "desc": "Formation et support pour votre autonomie"
+      }
+    },
+    "team": {
+      "title": "L'équipe",
+      "subtitle": "Des experts passionnés à votre service"
+    },
+    "stack": {
+      "title": "Notre stack technique",
+      "subtitle": "Technologies modernes pour des sites performants"
+    }
+  },
+  "pricing": {
+    "title": "Tarifs transparents",
+    "subtitle": "Des offres claires, sans surprise",
+    "showcase": {
+      "title": "Site vitrine",
+      "price": "800€",
+      "period": "tout compris",
+      "popular": "Le plus populaire",
+      "features": [
+        "Pages illimitées",
+        "Design sur mesure",
+        "100% responsive",
+        "SEO de base",
+        "Formation incluse",
+        "Hébergement 1 an offert",
+        "Support 30 jours"
+      ],
+      "cta": "Choisir cette offre"
+    },
+    "custom": {
+      "title": "Sur mesure",
+      "price": "Sur devis",
+      "subtitle": "Applications web, mobile, CRM...",
+      "cta": "Demander un devis"
+    }
+  },
+  "portfolio": {
+    "title": "Nos réalisations",
+    "subtitle": "Des projets concrets, des résultats mesurables",
+    "filters": {
+      "all": "Tous",
+      "ai_assistant": "Assistants IA",
+      "ai_automation": "Automatisation",
+      "ai_analysis": "Analyse IA",
+      "ai_apps": "Applications IA",
+      "showcase": "Sites vitrines",
+      "ai_integration": "Intégrations"
+    },
+    "cta": "Voir le projet",
+    "results": "Résultats",
+    "testimonial": "Témoignage client",
+    "similar": "Je veux un site similaire"
+  }
 }

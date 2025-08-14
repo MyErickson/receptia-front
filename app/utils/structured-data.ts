@@ -6,7 +6,8 @@ export const generateOrganizationSchema = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Receptia",
-    description: "Agence spécialisée en intelligence artificielle et solutions digitales. Chatbots, automatisation IA, analyse prédictive.",
+    description:
+      "Agence spécialisée en intelligence artificielle et solutions digitales. Chatbots, automatisation IA, analyse prédictive.",
     url: "https://receptia.fr",
     logo: "https://receptia.fr/logo.png",
     image: "https://receptia.fr/og-image.jpg",
@@ -15,23 +16,23 @@ export const generateOrganizationSchema = () => {
     address: {
       "@type": "PostalAddress",
       streetAddress: "123 Avenue de la République",
-      addressLocality: "Paris", 
+      addressLocality: "Paris",
       postalCode: "75011",
-      addressCountry: "FR"
+      addressCountry: "FR",
     },
     areaServed: "FR",
     sameAs: [
       "https://twitter.com/receptia",
       "https://www.linkedin.com/company/receptia",
-      "https://www.facebook.com/receptia"
+      "https://www.facebook.com/receptia",
     ],
     knowsAbout: [
       "Intelligence Artificielle",
-      "Chatbots", 
+      "Chatbots",
       "Automatisation",
       "Machine Learning",
-      "Solutions IA"
-    ]
+      "Solutions IA",
+    ],
   };
 };
 
@@ -47,10 +48,10 @@ export const generateWebsiteSchema = () => {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://receptia.fr/search?q={search_term_string}"
+        urlTemplate: "https://receptia.fr/search?q={search_term_string}",
       },
-      "query-input": "required name=search_term_string"
-    }
+      "query-input": "required name=search_term_string",
+    },
   };
 };
 
@@ -69,7 +70,7 @@ export const generateServiceSchema = (serviceData: {
     provider: {
       "@type": "Organization",
       name: "Receptia",
-      url: "https://receptia.fr"
+      url: "https://receptia.fr",
     },
     url: serviceData.url,
     serviceType: "Intelligence Artificielle",
@@ -79,9 +80,9 @@ export const generateServiceSchema = (serviceData: {
         "@type": "Offer",
         price: serviceData.price,
         priceCurrency: serviceData.currency || "EUR",
-        availability: "https://schema.org/InStock"
-      }
-    })
+        availability: "https://schema.org/InStock",
+      },
+    }),
   };
 };
 
@@ -89,13 +90,13 @@ export const generateFAQSchema = (faqData: Array<{ question: string; answer: str
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: faqData.map(item => ({
+    mainEntity: faqData.map((item) => ({
       "@type": "Question",
       name: item.question,
       acceptedAnswer: {
-        "@type": "Answer", 
-        text: item.answer
-      }
-    }))
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
   };
 };

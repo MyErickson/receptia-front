@@ -4,18 +4,18 @@ import { href } from "react-router";
 import type { Route } from "./+types/sitemap.xml";
 
 export const loader = async ({ request }: Route.LoaderArgs) => {
-	const { routes } = await import("virtual:react-router/server-build");
-	const { origin } = new URL(request.url);
-	const sitemap = await generateRemixSitemap({
-		domain: origin,
-		ignore: [href("/sitemap.xml")],
-		// https://github.com/forge-42/seo-tools/issues/8
-		routes,
-	});
+  const { routes } = await import("virtual:react-router/server-build");
+  const { origin } = new URL(request.url);
+  const sitemap = await generateRemixSitemap({
+    domain: origin,
+    ignore: [href("/sitemap.xml")],
+    // https://github.com/forge-42/seo-tools/issues/8
+    routes,
+  });
 
-	return new Response(sitemap, {
-		headers: {
-			"Content-Type": "application/xml; charset=utf-8",
-		},
-	});
+  return new Response(sitemap, {
+    headers: {
+      "Content-Type": "application/xml; charset=utf-8",
+    },
+  });
 };

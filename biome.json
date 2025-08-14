@@ -1,34 +1,103 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.1.4/schema.json",
-	"vcs": {
-		"enabled": false,
-		"clientKind": "git",
-		"useIgnoreFile": false
-	},
-	"files": {
-		"ignoreUnknown": false
-	},
-	"formatter": {
-		"enabled": true,
-		"indentStyle": "tab"
-	},
-	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true
-		}
-	},
-	"javascript": {
-		"formatter": {
-			"quoteStyle": "double"
-		}
-	},
-	"assist": {
-		"enabled": true,
-		"actions": {
-			"source": {
-				"organizeImports": "on"
-			}
-		}
-	}
+  "$schema": "https://biomejs.dev/schemas/2.1.4/schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "includes": [
+      "**",
+      "!**/dist/**",
+      "!**/node_modules",
+      "!**/prisma/**",
+      "!**/tsconfig.json",
+      "!**/*.jsonc",
+      "!**/settings.json",
+      "!**/generated/**",
+      "!**/generated",
+      "!**/build/**",
+      "!**/public/**",
+      "!**/public",
+      "!**/.react-router/**",
+      "!**/.react-router"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 110
+  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "suspicious": {
+        "noExplicitAny": "error",
+        "useAwait": "error",
+        "noUnsafeNegation": "error",
+        "noShadowRestrictedNames": "error",
+        "noConsole": { "level": "warn", "options": { "allow": ["log"] } },
+        "noDuplicateElseIf": "error",
+        "noDuplicateCustomProperties": "error",
+        "noDuplicateProperties": "error",
+        "noVar": "error"
+      },
+      "complexity": {
+        "noBannedTypes": "warn",
+        "noEmptyTypeParameters": "error",
+        "noExcessiveCognitiveComplexity": "warn",
+        "noExtraBooleanCast": "error",
+        "noForEach": "error",
+        "noUselessCatch": "error",
+        "noUselessEmptyExport": "error",
+        "noUselessRename": "error",
+        "noUselessTernary": "warn",
+        "useFlatMap": "warn"
+      },
+      "correctness": {
+        "noUnsafeOptionalChaining": "error",
+        "noUnusedImports": "error",
+        "noUndeclaredVariables": "error",
+        "noUnusedVariables": "error",
+        "useExhaustiveDependencies": "error",
+        "useHookAtTopLevel": "error",
+        "useValidTypeof": "error",
+        "noMissingVarFunction": "error",
+        "noUnknownTypeSelector": "error"
+      },
+      "nursery": {
+        "noSecrets": "off"
+      },
+      "performance": {
+        "noBarrelFile": "error"
+      },
+      "style": {
+        "useConst": "error",
+        "useForOf": "error",
+        "noUselessElse": "error",
+        "noParameterAssign": "error",
+        "useAsConstAssertion": "error",
+        "useDefaultParameterLast": "error",
+        "useEnumInitializers": "error",
+        "useSelfClosingElements": "error",
+        "useSingleVarDeclarator": "error",
+        "noUnusedTemplateLiteral": "error",
+        "useNumberNamespace": "error",
+        "noInferrableTypes": "error",
+        "noDescendingSpecificity": "error",
+        "noEnum": "error",
+        "noNestedTernary": "error"
+      }
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double"
+    },
+    "globals": ["expect", "describe", "it", "test", "beforeAll", "afterAll", "beforeEach", "afterEach"]
+  }
 }

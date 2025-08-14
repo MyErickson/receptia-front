@@ -1,8 +1,8 @@
-import { generateCanonicalLinks } from '@forge42/seo-tools/canonical';
+import { generateCanonicalLinks } from "@forge42/seo-tools/canonical";
 
-export function generateCanonicalForPage(url: string, domain: string = "https://receptia.fr") {
+export function generateCanonicalForPage(url: string, domain = "https://receptia.fr") {
   return generateCanonicalLinks({
-    urlTransformer: ({ url, domain, alternative }) => {
+    urlTransformer: ({ url, domain }) => {
       // Pour l'instant, pas de version alternative (pas de multilingual)
       // Retourne simplement l'URL canonique
       return `${domain}${url}`;
@@ -13,10 +13,7 @@ export function generateCanonicalForPage(url: string, domain: string = "https://
   });
 }
 
-export function generateCanonicalWithAlternatives(
-  url: string, 
-  domain: string = "https://receptia.fr"
-) {
+export function generateCanonicalWithAlternatives(url: string, domain = "https://receptia.fr") {
   return generateCanonicalLinks({
     urlTransformer: ({ url, domain, alternative }) => {
       if (alternative) {
