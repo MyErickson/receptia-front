@@ -1,8 +1,20 @@
-name = "receptia-frontend-worker"
-type = "javascript"
-account_id = "78af53673be9aa327e3392d9e535feb7"
-compatibility_date = "2025-08-13"
+name = "receptia-worker"
+main = "src/index.ts"
+compatibility_date = "2025-08-14"
 
+# (optionnel) servir des fichiers statiques depuis un dossier
+# mets ton build/static ici si tu en as
+[assets]
+directory = "public"   # ou "dist" si tu as un build
 
-[env.production]
-name = "receptia-production"
+# ENV DE PRODUCTION
+[env.prod]
+routes = [
+  { pattern = "receptia.fr/*", zone_name = "receptia.fr" }
+]
+
+# ENV DE DEV / PREPROD (optionnel)
+[env.dev]
+routes = [
+  { pattern = "dev.receptia.fr/*", zone_name = "receptia.fr" }
+]
