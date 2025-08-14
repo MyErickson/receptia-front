@@ -1,0 +1,8 @@
+name = "receptia-frontend-worker"
+type = "javascript"
+account_id = "78af53673be9aa327e3392d9e535feb7"
+compatibility_date = "2025-08-13"
+
+
+[env.production]
+name = "reception-production"
