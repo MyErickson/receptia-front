@@ -3,6 +3,7 @@ import { I18nextProvider } from "react-i18next";
 import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
 import type { Route } from "./+types/root";
 import "./app.css";
+import { useGoogleFonts } from "./hooks/useGoogleFonts";
 import i18n from "./i18n/config";
 
 export const links: Route.LinksFunction = () => [
@@ -13,8 +14,16 @@ export const links: Route.LinksFunction = () => [
     crossOrigin: "anonymous",
   },
   {
+    rel: "preload",
+    href: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Montserrat:wght@600;700&display=swap",
+    as: "style",
+  },
+  // Fonts avec media="print" pour éviter le render-blocking, sera changé en "all" par JS
+  {
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Montserrat:wght@600;700&display=swap",
+    media: "print",
+    id: "google-fonts",
   },
 ];
 
@@ -128,6 +137,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+  // Activer les Google Fonts de manière asynchrone
+  useGoogleFonts();
+
   return (
     <I18nextProvider i18n={i18n}>
       <Outlet />
@@ -150,8 +162,8 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
 
   return (
     <main className="pt-16 p-4 container mx-auto">
-      <h1>{message}</h1>
-      <p>{details}</p>
+      <h1 className="text-4xl md:text-5xl font-bold mb-4 text-red-600">{message}</h1>
+      <p className="text-lg text-gray-600 mb-4">{details}</p>
       {stack && (
         <pre className="w-full p-4 overflow-x-auto">
           <code>{stack}</code>

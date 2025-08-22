@@ -38,6 +38,10 @@ export default defineConfig({
           }
         },
       },
+      treeshake: {
+        moduleSideEffects: false,
+        propertyReadSideEffects: false,
+      },
     },
 
     // Enable advanced minification
@@ -46,6 +50,13 @@ export default defineConfig({
       compress: {
         drop_console: true,
         drop_debugger: true,
+        pure_funcs: ["console.log", "console.info", "console.warn"],
+        passes: 2,
+        dead_code: true,
+        unused: true,
+      },
+      mangle: {
+        toplevel: true,
       },
     },
 

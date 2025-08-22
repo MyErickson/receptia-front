@@ -75,12 +75,12 @@
     }
   },
   "services": {
-    "title": "Our AI & Digital solutions",
-    "subtitle": "Transform your business with artificial intelligence",
+    "title": "AI Agent & Mobile - Complete Solutions",
+    "subtitle": "Specialized web agency Reunion Island: AI Agents, generative AI, mobile applications 974",
     "items": {
       "ai_assistant": {
-        "title": "AI Assistants & Chatbots",
-        "desc": "Automate your customer service 24/7 with AI",
+        "title": "AI Agents & Chatbots",
+        "desc": "Automate your customer service 24/7 with autonomous AI Agents",
         "price": "From €2000"
       },
       "ai_automation": {
@@ -94,8 +94,8 @@
         "price": "From €3000"
       },
       "ai_apps": {
-        "title": "AI Applications",
-        "desc": "Mobile and web apps powered by AI",
+        "title": "AI Agent Mobile Applications",
+        "desc": "Creation of mobile applications with integrated AI Agents",
         "price": "Custom quote"
       },
       "showcase": {
@@ -104,8 +104,8 @@
         "price": "€800 all inclusive"
       },
       "ai_integration": {
-        "title": "AI Integration",
-        "desc": "Add AI to your existing tools",
+        "title": "AI Agent Integration",
+        "desc": "Add AI Agents to your existing systems",
         "price": "From €1500/month"
       }
     }
@@ -151,7 +151,7 @@
   },
   "footer": {
     "company": "Receptia",
-    "tagline": "Your trusted AI & Digital partner",
+    "tagline": "Your AI Agent & Mobile web agency in Reunion 974",
     "links": {
       "legal": "Legal notice",
       "privacy": "Privacy policy",
@@ -221,7 +221,7 @@
     "title": "About Receptia",
     "mission": {
       "title": "Our mission",
-      "content": "Making the web accessible to everyone with professional solutions at the right price."
+      "content": "We democratize artificial intelligence to transform every company into an innovative digital player. Our vision: a world where AI is no longer a luxury reserved for giants, but an accessible growth lever that allows every entrepreneur, SME and organization to unleash their full potential, automate their processes and deliver exceptional customer experiences."
     },
     "values": {
       "title": "Our values",
@@ -282,10 +282,12 @@
     "subtitle": "Real projects, measurable results",
     "filters": {
       "all": "All",
+      "ai_assistant": "AI Assistants",
+      "ai_automation": "Automation",
+      "ai_analysis": "AI Analysis",
+      "ai_apps": "AI Applications",
       "showcase": "Showcase sites",
-      "ecommerce": "E-commerce",
-      "webapp": "Applications",
-      "mobile": "Mobile"
+      "ai_integration": "Integrations"
     },
     "cta": "View project",
     "results": "Results",
@@ -376,8 +378,8 @@
           ]
         },
         "ai_mobile_apps": {
-          "title": "Mobile Apps + AI",
-          "desc": "Smart mobile applications with integrated AI for Reunion Island",
+          "title": "Mobile Apps + AI Agents",
+          "desc": "Smart mobile applications with integrated AI Agents and generative AI",
           "price": "From €6000",
           "features": [
             "Voice recognition",
@@ -427,12 +429,12 @@
       ]
     },
     "benefits": {
-      "title": "Why choose our Reunion mobile agency?",
-      "subtitle": "The advantages of working with a local team",
+      "title": "Why choose our AI Agent web agency?",
+      "subtitle": "The advantages of the AI Agent era",
       "items": [
         {
-          "title": "Local Reunion Expertise",
-          "desc": "Complete mastery of Agent AI and mobile technologies"
+          "title": "AI Agent & Mobile Expertise",
+          "desc": "Mastery of AI Agents, generative AI and mobile development"
         },
         {
           "title": "Modern Technologies",
@@ -440,42 +442,42 @@
         },
         {
           "title": "Technical Support",
-          "desc": "Available and responsive technical team based in Reunion"
+          "desc": "Available and responsive technical team for all your projects"
         },
         {
           "title": "Transparent Pricing",
-          "desc": "Detailed quotes, no hidden costs, prices adapted to local market"
+          "desc": "Detailed quotes, no hidden costs, competitive rates"
         }
       ]
     },
     "localSeo": {
-      "title": "Mobile App Development in Reunion Island",
+      "title": "AI Agent & Mobile - New Generation",
       "coverage": {
         "title": "Service Areas",
         "cities": [
-          "Saint-Denis - Main mobile agency",
-          "Saint-Pierre - South app development",
-          "Le Port - Logistics applications",
-          "Saint-Paul - Tourism apps",
-          "Saint-Louis - E-commerce solutions",
-          "Sainte-Marie - Business apps"
+          "Mobile applications with AI Agents",
+          "AI Agent solutions for businesses",
+          "Intelligent e-commerce apps",
+          "Tourism sector applications",
+          "Automated logistics solutions",
+          "Custom industry AI Agents"
         ]
       },
       "sectors": {
         "title": "Business Sectors",
         "items": [
-          "Tourism and hospitality Reunion",
-          "Local commerce and e-commerce",
+          "Tourism and hospitality",
+          "Commerce and e-commerce",
           "Business services",
-          "Agriculture and food processing",
+          "Agriculture and agro-food",
           "Transport and logistics",
           "Health and wellness"
         ]
       }
     },
     "finalCta": {
-      "title": "Ready to create your mobile application?",
-      "subtitle": "Contact our mobile development team based in Reunion Island",
+      "title": "Ready to create your mobile application with AI Agents?",
+      "subtitle": "Contact our specialized web agency in AI Agents, generative AI and mobile applications",
       "cta": {
         "primary": "Start my app project",
         "secondary": "Get a free quote"
