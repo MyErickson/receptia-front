@@ -291,5 +291,198 @@
     "results": "Results",
     "testimonial": "Client testimonial",
     "similar": "I want a similar site"
+  },
+  "appMobileReunion": {
+    "meta": {
+      "title": "Mobile App Development Reunion Island 974 | Application Creation",
+      "description": "Mobile app creator in Reunion Island. Android/iOS mobile app development 974, integrated AI solutions. Local agency specialized in mobile apps."
+    },
+    "hero": {
+      "title": "Mobile App Development Reunion Island 974",
+      "subtitle": "Mobile app creator in Reunion Island. iOS, Android and hybrid development with integrated artificial intelligence.",
+      "cta": {
+        "primary": "Create my mobile app",
+        "secondary": "Free quote"
+      }
+    },
+    "services": {
+      "title": "Mobile App Development Services 974",
+      "subtitle": "Complete mobile solutions for Reunion Island",
+      "items": {
+        "native_ios": {
+          "title": "Native iOS Applications",
+          "desc": "iOS app development optimized for iPhone and iPad, available on the App Store",
+          "price": "From €4000",
+          "features": [
+            "Swift / SwiftUI",
+            "Native iOS interface",
+            "Optimal performance",
+            "Apple ecosystem integration",
+            "App Store ready",
+            "Maintenance included"
+          ]
+        },
+        "native_android": {
+          "title": "Native Android Applications",
+          "desc": "High-performance Android app creation for smartphones and tablets",
+          "price": "From €3500",
+          "features": [
+            "Kotlin / Java",
+            "Material Design",
+            "Google Play Store",
+            "Battery optimization",
+            "Push notifications",
+            "Multi-format support"
+          ]
+        },
+        "hybrid_apps": {
+          "title": "Hybrid Applications",
+          "desc": "Cross-platform development with React Native or Flutter for iOS and Android",
+          "price": "From €3000",
+          "features": [
+            "React Native / Flutter",
+            "Single multiplatform code",
+            "Cost reduction",
+            "Simultaneous deployment",
+            "Native performance",
+            "Simplified maintenance"
+          ],
+          "popular": "Most popular"
+        },
+        "pwa_apps": {
+          "title": "Progressive Web Apps",
+          "desc": "Progressive web applications combining web and mobile",
+          "price": "From €2000",
+          "features": [
+            "PWA technology",
+            "Offline functionality",
+            "Mobile installation",
+            "Web notifications",
+            "Responsive design",
+            "SEO optimized"
+          ]
+        },
+        "ecommerce_mobile": {
+          "title": "Mobile E-commerce Apps",
+          "desc": "Online sales mobile applications optimized for Reunion Island",
+          "price": "From €5000",
+          "features": [
+            "Native mobile store",
+            "Secure payment",
+            "Catalog management",
+            "Local delivery 974",
+            "Promotional notifications",
+            "Integrated analytics"
+          ]
+        },
+        "ai_mobile_apps": {
+          "title": "Mobile Apps + AI",
+          "desc": "Smart mobile applications with integrated AI for Reunion Island",
+          "price": "From €6000",
+          "features": [
+            "Voice recognition",
+            "Computer vision",
+            "Integrated chatbot",
+            "AI recommendations",
+            "Behavior analysis",
+            "Machine Learning"
+          ]
+        }
+      }
+    },
+    "process": {
+      "title": "Our development process",
+      "subtitle": "From idea to store publication",
+      "steps": [
+        {
+          "title": "Needs Analysis",
+          "desc": "Study of your mobile app project and feature definition",
+          "duration": "1-2 days"
+        },
+        {
+          "title": "UX/UI Design",
+          "desc": "User interface creation and optimized mobile experience",
+          "duration": "3-5 days"
+        },
+        {
+          "title": "Development",
+          "desc": "iOS/Android mobile application coding according to specifications",
+          "duration": "2-6 weeks"
+        },
+        {
+          "title": "Testing & Debug",
+          "desc": "Testing on different devices, bug fixes and optimizations",
+          "duration": "3-5 days"
+        },
+        {
+          "title": "Store Publication",
+          "desc": "Launch on App Store and Google Play Store",
+          "duration": "2-7 days"
+        },
+        {
+          "title": "Training & Support",
+          "desc": "Usage training and continuous technical support",
+          "duration": "Ongoing"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Why choose our Reunion mobile agency?",
+      "subtitle": "The advantages of working with a local team",
+      "items": [
+        {
+          "title": "Local Reunion Expertise",
+          "desc": "Knowledge of local 974 market and Reunion specificities"
+        },
+        {
+          "title": "Modern Technologies",
+          "desc": "React Native, Flutter, Swift, Kotlin - High-performance technologies"
+        },
+        {
+          "title": "Technical Support",
+          "desc": "Available and responsive technical team based in Reunion"
+        },
+        {
+          "title": "Transparent Pricing",
+          "desc": "Detailed quotes, no hidden costs, prices adapted to local market"
+        }
+      ]
+    },
+    "localSeo": {
+      "title": "Mobile App Development in Reunion Island",
+      "coverage": {
+        "title": "Geographic Coverage 974",
+        "cities": [
+          "Saint-Denis - Main mobile agency",
+          "Saint-Pierre - South app development",
+          "Le Port - Logistics applications",
+          "Saint-Paul - Tourism apps",
+          "Saint-Louis - E-commerce solutions",
+          "Sainte-Marie - Business apps"
+        ]
+      },
+      "sectors": {
+        "title": "Business Sectors",
+        "items": [
+          "Tourism and hospitality Reunion",
+          "Local commerce and e-commerce",
+          "Business services 974",
+          "Agriculture and food processing",
+          "Transport and logistics",
+          "Health and wellness"
+        ]
+      }
+    },
+    "finalCta": {
+      "title": "Ready to create your mobile application?",
+      "subtitle": "Contact our mobile development team based in Reunion Island",
+      "cta": {
+        "primary": "Start my app project",
+        "secondary": "Get a free quote"
+      }
+    },
+    "common": {
+      "requestQuote": "Request a quote"
+    }
   }
 }

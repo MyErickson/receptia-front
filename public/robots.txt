@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Allow: /services
+Allow: /app-mobile-reunion
 Allow: /about
 Allow: /contact
 Allow: /faq

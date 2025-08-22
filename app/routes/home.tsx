@@ -14,18 +14,22 @@ import type { Route } from "./+types/home";
 
 export function meta(_: Route.MetaArgs) {
   return generateMeta({
-    title: "Receptia - Agence IA & Digital | Automatisation & Intelligence Artificielle",
+    title: "App Mobile Île de la Réunion | Développement IA & Applications 974",
     description:
-      "Agence spécialisée en intelligence artificielle et automatisation. Solutions IA sur mesure, chatbots intelligents, automatisation des processus. Transformez votre entreprise.",
+      "Développement d'applications mobiles et intelligence artificielle à l'île de la Réunion. Créateur d'app mobile, chatbots IA, automatisation. Agence digitale locale 974.",
     url: "/",
     keywords: [
-      "intelligence artificielle",
-      "automatisation IA",
-      "chatbots intelligents",
-      "solutions IA",
-      "digitalisation entreprise",
-      "agence IA",
-      "développement IA",
+      "app mobile île de la réunion",
+      "développement application mobile 974",
+      "créateur app mobile réunion",
+      "agence mobile saint denis",
+      "intelligence artificielle réunion",
+      "automatisation IA 974",
+      "chatbots intelligents réunion",
+      "solutions IA réunion",
+      "digitalisation entreprise 974",
+      "agence digitale réunion",
+      "développement mobile réunion",
     ],
     canonical: true,
   });

@@ -1,4 +1,3 @@
-/** biome-ignore-all assist/source/organizeImports: <> */
 import { generateRemixSitemap } from "@forge42/seo-tools/remix/sitemap";
 import { href } from "react-router";
 import type { Route } from "./+types/sitemap.xml";

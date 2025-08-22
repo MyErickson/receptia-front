@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Receptia - Agence Web | Sites Vitrines 800€ | Livraison Rapide",
-    "description": "Agence web spécialisée dans la création de sites vitrines à 800€, applications mobiles et solutions métier. Livraison en quelques jours. Design moderne, SEO optimisé."
+    "title": "App Mobile Île de la Réunion | Développement IA & Applications 974",
+    "description": "Développement d'applications mobiles et intelligence artificielle à l'île de la Réunion. Créateur d'app mobile 974, chatbots IA, automatisation. Agence digitale locale."
   },
   "nav": {
     "home": "Accueil",
@@ -14,8 +14,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "headline": "Transformez votre entreprise grâce à l'IA",
-    "subtitle": "Automatisez vos tâches, concentrez-vous sur l'essentiel. Des solutions IA rapides à déployer, simples à utiliser.",
+    "headline": "Créateur d'App Mobile à l'île de la Réunion",
+    "subtitle": "Développement d'applications mobiles et solutions IA 974. Transformez votre idée en app mobile performante avec l'intelligence artificielle.",
     "segments": ["pour PME", "pour créateurs", "pour associations", "pour startups"],
     "cta": {
       "primary": "Découvrir nos solutions IA",
@@ -75,8 +75,8 @@
     }
   },
   "services": {
-    "title": "Nos solutions IA & Digital",
-    "subtitle": "Transformez votre entreprise avec l'intelligence artificielle",
+    "title": "Développement App Mobile Réunion 974",
+    "subtitle": "Création d'applications mobiles et solutions IA à l'île de la Réunion",
     "items": {
       "ai_assistant": {
         "title": "Assistants IA & Chatbots",
@@ -94,8 +94,8 @@
         "price": "À partir de 3000€"
       },
       "ai_apps": {
-        "title": "Applications IA",
-        "desc": "Apps mobiles et web dopées à l'IA",
+        "title": "Applications Mobiles IA",
+        "desc": "Création d'app mobile intelligente à la Réunion avec IA intégrée",
         "price": "Sur devis"
       },
       "showcase": {
@@ -151,7 +151,7 @@
   },
   "footer": {
     "company": "Receptia",
-    "tagline": "Votre partenaire digital de confiance",
+    "tagline": "Votre créateur d'app mobile à l'île de la Réunion",
     "links": {
       "legal": "Mentions légales",
       "privacy": "Politique de confidentialité",
@@ -293,5 +293,198 @@
     "results": "Résultats",
     "testimonial": "Témoignage client",
     "similar": "Je veux un site similaire"
+  },
+  "appMobileReunion": {
+    "meta": {
+      "title": "Développement App Mobile Île de la Réunion 974 | Création Application",
+      "description": "Créateur d'applications mobiles à l'île de la Réunion. Développement app mobile Android/iOS 974, solutions IA intégrées. Agence locale spécialisée apps mobiles."
+    },
+    "hero": {
+      "title": "Développement App Mobile Île de la Réunion 974",
+      "subtitle": "Créateur d'applications mobiles à l'île de la Réunion. Développement iOS, Android et solutions hybrides avec intelligence artificielle intégrée.",
+      "cta": {
+        "primary": "Créer mon app mobile",
+        "secondary": "Devis gratuit"
+      }
+    },
+    "services": {
+      "title": "Services Développement App Mobile 974",
+      "subtitle": "Solutions mobiles complètes pour l'île de la Réunion",
+      "items": {
+        "native_ios": {
+          "title": "Applications iOS Natives",
+          "desc": "Développement d'apps iOS optimisées pour iPhone et iPad, disponibles sur l'App Store",
+          "price": "À partir de 4000€",
+          "features": [
+            "Swift / SwiftUI",
+            "Interface native iOS",
+            "Performance optimale",
+            "Intégration écosystème Apple",
+            "App Store ready",
+            "Maintenance incluse"
+          ]
+        },
+        "native_android": {
+          "title": "Applications Android Natives",
+          "desc": "Création d'applications Android performantes pour smartphones et tablettes",
+          "price": "À partir de 3500€",
+          "features": [
+            "Kotlin / Java",
+            "Material Design",
+            "Google Play Store",
+            "Optimisation batterie",
+            "Notifications push",
+            "Support multiformats"
+          ]
+        },
+        "hybrid_apps": {
+          "title": "Applications Hybrides",
+          "desc": "Développement cross-platform avec React Native ou Flutter pour iOS et Android",
+          "price": "À partir de 3000€",
+          "features": [
+            "React Native / Flutter",
+            "Code unique multiplateforme",
+            "Réduction des coûts",
+            "Déploiement simultané",
+            "Performance native",
+            "Maintenance simplifiée"
+          ],
+          "popular": "Le plus populaire"
+        },
+        "pwa_apps": {
+          "title": "Progressive Web Apps",
+          "desc": "Applications web progressives combinant web et mobile",
+          "price": "À partir de 2000€",
+          "features": [
+            "Technologie PWA",
+            "Fonctionnement offline",
+            "Installation sur mobile",
+            "Notifications web",
+            "Responsive design",
+            "SEO optimisé"
+          ]
+        },
+        "ecommerce_mobile": {
+          "title": "Apps E-commerce Mobile",
+          "desc": "Applications mobiles de vente en ligne optimisées pour la Réunion",
+          "price": "À partir de 5000€",
+          "features": [
+            "Boutique mobile native",
+            "Paiement sécurisé",
+            "Gestion catalogue",
+            "Livraison locale 974",
+            "Notifications promotions",
+            "Analytics intégrés"
+          ]
+        },
+        "ai_mobile_apps": {
+          "title": "Apps Mobile + IA",
+          "desc": "Applications mobiles intelligentes avec IA intégrée pour l'île de la Réunion",
+          "price": "À partir de 6000€",
+          "features": [
+            "Reconnaissance vocale",
+            "Vision par ordinateur",
+            "Chatbot intégré",
+            "Recommandations IA",
+            "Analyse comportement",
+            "Machine Learning"
+          ]
+        }
+      }
+    },
+    "process": {
+      "title": "Notre processus de développement",
+      "subtitle": "De l'idée à la publication sur les stores",
+      "steps": [
+        {
+          "title": "Analyse des besoins",
+          "desc": "Étude de votre projet d'app mobile et définition des fonctionnalités",
+          "duration": "1-2 jours"
+        },
+        {
+          "title": "Design UX/UI",
+          "desc": "Création de l'interface utilisateur et expérience mobile optimisée",
+          "duration": "3-5 jours"
+        },
+        {
+          "title": "Développement",
+          "desc": "Codage de l'application mobile iOS/Android selon cahier des charges",
+          "duration": "2-6 semaines"
+        },
+        {
+          "title": "Tests & Debug",
+          "desc": "Tests sur différents appareils, correction bugs et optimisations",
+          "duration": "3-5 jours"
+        },
+        {
+          "title": "Publication Stores",
+          "desc": "Mise en ligne sur App Store et Google Play Store",
+          "duration": "2-7 jours"
+        },
+        {
+          "title": "Formation & Support",
+          "desc": "Formation à l'utilisation et support technique continu",
+          "duration": "Continu"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Pourquoi choisir notre agence mobile Réunion ?",
+      "subtitle": "Les avantages de travailler avec une équipe locale",
+      "items": [
+        {
+          "title": "Expertise Locale Réunion",
+          "desc": "Connaissance du marché local 974 et des spécificités réunionnaises"
+        },
+        {
+          "title": "Technologies Modernes",
+          "desc": "React Native, Flutter, Swift, Kotlin - Technologies performantes"
+        },
+        {
+          "title": "Support Technique",
+          "desc": "Équipe technique disponible et réactive basée à la Réunion"
+        },
+        {
+          "title": "Prix Transparents",
+          "desc": "Devis détaillés, pas de coûts cachés, tarifs adaptés au marché local"
+        }
+      ]
+    },
+    "localSeo": {
+      "title": "Développement App Mobile à l'Île de la Réunion",
+      "coverage": {
+        "title": "Couverture Géographique 974",
+        "cities": [
+          "Saint-Denis - Agence mobile principale",
+          "Saint-Pierre - Développement app sud",
+          "Le Port - Applications logistique",
+          "Saint-Paul - Apps touristiques",
+          "Saint-Louis - Solutions e-commerce",
+          "Sainte-Marie - Apps entreprise"
+        ]
+      },
+      "sectors": {
+        "title": "Secteurs d'Activité",
+        "items": [
+          "Tourisme et hôtellerie Réunion",
+          "Commerce local et e-commerce",
+          "Services aux entreprises 974",
+          "Agriculture et agro-alimentaire",
+          "Transport et logistique",
+          "Santé et bien-être"
+        ]
+      }
+    },
+    "finalCta": {
+      "title": "Prêt à créer votre application mobile ?",
+      "subtitle": "Contactez notre équipe de développeurs mobiles basée à l'île de la Réunion",
+      "cta": {
+        "primary": "Démarrer mon projet d'app",
+        "secondary": "Obtenir un devis gratuit"
+      }
+    },
+    "common": {
+      "requestQuote": "Demander un devis"
+    }
   }
 }

@@ -1,5 +1,4 @@
-/** biome-ignore-all assist/source/organizeImports: <> */
-import { index, layout, route, type RouteConfig } from "@react-router/dev/routes";
+import { index, layout, type RouteConfig, route } from "@react-router/dev/routes";
 
 export default [
   route("sitemap.xml", "routes/sitemap.xml.ts"),
@@ -8,6 +7,7 @@ export default [
     // route("portfolio", "routes/portfolio.tsx"),
     // route("portfolio/:id", "routes/portfolio.$id.tsx"),
     route("services", "routes/services.tsx"),
+    route("app-mobile-reunion", "routes/app-mobile-reunion.tsx"),
     route("about", "routes/about.tsx"),
     route("pricing", "routes/pricing.tsx"),
     route("faq", "routes/faq.tsx"),

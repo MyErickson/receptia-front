@@ -9,17 +9,21 @@ import type { Route } from "./+types/services";
 
 export function meta(_: Route.MetaArgs) {
   return generateMeta({
-    title: "Services IA - Receptia | Automatisation & Intelligence Artificielle",
+    title: "Services App Mobile Réunion 974 | Développement IA & Applications",
     description:
-      "Nos services IA : chatbots intelligents, automatisation, analyse de données, applications IA sur mesure. Solutions d'intelligence artificielle adaptées à votre entreprise.",
+      "Services développement d'applications mobiles et IA à l'île de la Réunion : création app mobile 974, chatbots intelligents, automatisation, solutions IA sur mesure.",
     url: "/services",
     keywords: [
-      "services IA",
-      "chatbots intelligents",
-      "automatisation IA",
-      "applications IA",
-      "intelligence artificielle",
-      "digitalisation entreprise",
+      "services app mobile réunion",
+      "développement app mobile 974",
+      "création application mobile réunion",
+      "services IA réunion",
+      "chatbots intelligents 974",
+      "automatisation IA réunion",
+      "applications mobiles sur mesure",
+      "intelligence artificielle 974",
+      "digitalisation entreprise réunion",
+      "agence mobile réunion",
     ],
     canonical: true,
   });
