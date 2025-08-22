@@ -1,0 +1,63 @@
+# Fichiers à ignorer lors du déploiement sur Google Cloud
+# Basé sur .dockerignore mais adapté pour Cloud Build
+
+# Build outputs (seront recréés)
+.react-router/
+build/
+dist/
+node_modules/
+
+# Dev dependencies logs
+npm-debug.log*
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE et editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Version control
+.git/
+.gitignore
+
+# Documentation
+README.md
+docs/
+CHANGELOG.md
+
+# Test files
+coverage/
+*.test.*
+__tests__/
+
+# Logs
+logs/
+*.log
+
+# Cache directories
+.npm/
+.eslintcache
+.biome/
+
+# TypeScript
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/

@@ -28,7 +28,6 @@ COPY tsconfig.json ./
 COPY biome.json ./
 COPY react-router.config.ts ./
 COPY vite.config.ts ./
-COPY tailwind.config.js ./
 
 # Copier le code source
 COPY app ./app
