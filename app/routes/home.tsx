@@ -204,7 +204,8 @@ export default function Home() {
             >
               <LightHeroTitle>{t("hero.headline")}</LightHeroTitle>
               <p className="hero-subtitle text-gray-900 mb-6 font-semibold drop-shadow-sm">
-                Agent IA & Apps Mobiles Intelligentes
+                Développement d'agents IA autonomes et d'applications mobiles intelligentes<br />
+                pour automatiser vos processus métier à l'île de la Réunion 974
               </p>
             </motion.div>
 

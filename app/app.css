@@ -142,6 +142,16 @@
     font-weight: 700;
   }
 
+  /* Fix pour le warning H1 dans sections sémantiques selon MDN */
+  /* Backup pour les H1 sans classes Tailwind */
+  section h1:not([class*="text-"]),
+  article h1:not([class*="text-"]),
+  aside h1:not([class*="text-"]),
+  nav h1:not([class*="text-"]) {
+    font-size: clamp(2.5rem, 5vw, 4rem) !important;
+    font-weight: 700;
+  }
+
   .hero-subtitle {
     font-size: clamp(1.25rem, 2.5vw, 1.75rem) !important; /* 20px à 28px - reduced size for faster LCP */
     font-weight: 500;

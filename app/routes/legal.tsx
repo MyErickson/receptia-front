@@ -18,7 +18,7 @@ export default function Legal() {
     <Section className="pt-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto prose prose-gray">
-          <h1>Mentions Légales</h1>
+          <h1 className="text-4xl md:text-5xl font-bold">Mentions Légales</h1>
 
           <h2>Éditeur du site</h2>
           <p>
