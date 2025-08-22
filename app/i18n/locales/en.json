@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Receptia - AI & Digital Agency | Automation & Artificial Intelligence",
-    "description": "Agency specialized in artificial intelligence and automation. Custom AI solutions, intelligent chatbots, process automation. Transform your business."
+    "title": "Receptia - AI Agent & Mobile | Reunion Island 974 | Artificial Intelligence",
+    "description": "Web agency specialized in AI Agents, generative AI and mobile applications in Reunion Island. Intelligent solutions 974: autonomous AI Agents, advanced chatbots, mobile apps."
   },
   "nav": {
     "home": "Home",
@@ -14,8 +14,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "headline": "Transform your business with AI",
-    "subtitle": "Automate your tasks, focus on what matters. Fast AI solutions, easy to use.",
+    "headline": "AI Agents & Mobile - New Generation",
+    "subtitle": "Web agency specialized in AI Agents, generative AI and mobile applications in Reunion Island. Transform your business with intelligent next-generation solutions.",
     "segments": ["for SMEs", "for creators", "for nonprofits", "for startups"],
     "cta": {
       "primary": "Discover our AI solutions",
@@ -24,18 +24,18 @@
     "trust": "Average rating 4.9/5 on {{count}} delivered projects"
   },
   "offer": {
-    "title": "Artificial Intelligence Solutions",
-    "subtitle": "Digitalization • Automation • Innovation",
+    "title": "AI Agent & Generative AI Solutions",
+    "subtitle": "AI Agents • Generative AI • Mobile Applications 974",
     "popular": "Most requested",
     "includes": {
       "title": "Our AI expertise",
       "items": [
-        "Intelligent virtual assistants",
-        "Advanced conversational chatbots",
-        "Business process automation",
-        "Predictive data analysis",
-        "Automatic image/text processing",
-        "AI integration in existing tools"
+        "Autonomous and intelligent AI Agents",
+        "Advanced generative AI",
+        "Mobile applications with AI Agents",
+        "Intelligent automation",
+        "Next-generation chatbots",
+        "AI Agent integration in your systems"
       ]
     },
     "cta": "Start your AI transformation"

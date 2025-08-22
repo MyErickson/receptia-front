@@ -14,22 +14,22 @@ import type { Route } from "./+types/home";
 
 export function meta(_: Route.MetaArgs) {
   return generateMeta({
-    title: "Agent IA & Mobile - Nouvelle Génération | Agence Web",
+    title: "Agent IA & Mobile - Nouvelle Génération | Île de la Réunion 974",
     description:
-      "Agence web spécialisée en Agent IA, IA générative et applications mobiles. Solutions intelligentes nouvelle génération : Agent IA autonomes, chatbots avancés, automatisation.",
+      "Agence web spécialisée en Agent IA, IA générative et applications mobiles à l'île de la Réunion. Solutions intelligentes nouvelle génération : Agent IA autonomes, chatbots avancés 974.",
     url: "/",
     keywords: [
-      "agent IA",
-      "agent IA mobile",
-      "agence web agent IA",
-      "IA générative",
-      "applications mobiles intelligentes",
-      "automatisation agent IA",
-      "chatbots agent IA",
-      "solutions agent IA",
-      "développement mobile IA",
-      "agence web mobile",
-      "intelligence artificielle mobile",
+      "agent IA île de la réunion",
+      "agent IA mobile 974",
+      "agence web agent IA réunion",
+      "IA générative réunion",
+      "applications mobiles intelligentes 974",
+      "automatisation agent IA réunion",
+      "chatbots agent IA 974",
+      "solutions agent IA réunion",
+      "développement mobile IA 974",
+      "agence web mobile réunion",
+      "intelligence artificielle mobile 974",
     ],
     canonical: true,
   });
