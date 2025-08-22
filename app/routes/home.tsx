@@ -7,7 +7,7 @@ import { ScrollFloat } from "~/components/animations/Background";
 import { CountUp } from "~/components/animations/TextAnimation";
 import { Button } from "~/components/ui/Button";
 import { Card } from "~/components/ui/Card";
-import LightHeroTitle from "~/components/ui/LightHeroTitle";
+import AnimatedHeroTitle from "~/components/ui/AnimatedHeroTitle";
 import { Section, SectionHeader } from "~/components/ui/Section";
 
 import { generateMeta } from "~/utils/seo";
@@ -202,7 +202,9 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <LightHeroTitle>{t("hero.headline")}</LightHeroTitle>
+              <AnimatedHeroTitle className="hero-title text-6xl md:text-7xl lg:text-8xl mb-6 bg-gradient-to-b from-gray-900 via-gray-800 to-black bg-clip-text text-transparent font-bold drop-shadow-sm">
+                {t("hero.headline")}
+              </AnimatedHeroTitle>
               <p className="hero-subtitle text-gray-900 mb-6 font-semibold drop-shadow-sm">
                 Développement d'agents IA autonomes et d'applications mobiles intelligentes
                 <br />
