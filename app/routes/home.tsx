@@ -105,58 +105,56 @@ export default function Home() {
     {
       id: "ai_analysis",
       icon: "🤖",
-      title: "Analyse des besoins IA",
-      desc: "Audit de vos processus métier et identification des opportunités d'automatisation IA",
+      title: t("process.steps.ai_analysis.title"),
+      desc: t("process.steps.ai_analysis.desc"),
     },
     {
       id: "ai_strategy",
       icon: "🧠",
-      title: "Stratégie IA personnalisée",
-      desc: "Conception d'une roadmap IA adaptée à vos objectifs et contraintes techniques",
+      title: t("process.steps.ai_strategy.title"),
+      desc: t("process.steps.ai_strategy.desc"),
     },
     {
       id: "ai_prototype",
       icon: "⚡",
-      title: "Prototype IA rapide",
-      desc: "Développement d'un MVP IA pour valider les concepts et mesurer l'impact",
+      title: t("process.steps.ai_prototype.title"),
+      desc: t("process.steps.ai_prototype.desc"),
     },
     {
       id: "ai_integration",
       icon: "🔗",
-      title: "Intégration & déploiement",
-      desc: "Intégration de l'IA dans vos systèmes existants avec formation de vos équipes",
+      title: t("process.steps.ai_integration.title"),
+      desc: t("process.steps.ai_integration.desc"),
     },
     {
       id: "ai_optimization",
       icon: "📊",
-      title: "Optimisation continue",
-      desc: "Monitoring des performances IA et amélioration continue des algorithmes",
+      title: t("process.steps.ai_optimization.title"),
+      desc: t("process.steps.ai_optimization.desc"),
     },
     {
       id: "ai_scaling",
       icon: "🚀",
-      title: "Montée en charge",
-      desc: "Extension de l'IA à d'autres processus et déploiement à grande échelle",
+      title: t("process.steps.ai_scaling.title"),
+      desc: t("process.steps.ai_scaling.desc"),
     },
   ];
 
   const testimonials = [
     {
-      name: "Marie Dubois",
-      content:
-        "Notre chatbot IA a révolutionné notre service client. 80% de demandes traitées automatiquement !",
-      rating: 5,
+      name: t("testimonials.items.0.name"),
+      content: t("testimonials.items.0.content"),
+      rating: t("testimonials.items.0.rating"),
     },
     {
-      name: "Pierre Martin",
-      content: "L'automatisation de nos processus nous fait gagner 15h par semaine. ROI incroyable.",
-      rating: 5,
+      name: t("testimonials.items.1.name"),
+      content: t("testimonials.items.1.content"),
+      rating: t("testimonials.items.1.rating"),
     },
     {
-      name: "Sophie Laurent",
-      content:
-        "L'analyse IA de nos données nous aide à mieux comprendre nos clients. Résultats impressionnants.",
-      rating: 5,
+      name: t("testimonials.items.2.name"),
+      content: t("testimonials.items.2.content"),
+      rating: t("testimonials.items.2.rating"),
     },
   ];
 
@@ -206,9 +204,7 @@ export default function Home() {
                 {t("hero.headline")}
               </AnimatedHeroTitle>
               <p className="hero-subtitle text-gray-900 mb-6 font-semibold drop-shadow-sm">
-                Développement d'agents IA autonomes et d'applications mobiles intelligentes
-                <br />
-                pour automatiser vos processus métier à l'île de la Réunion (974)
+                {t("hero.subtitle")}
               </p>
             </motion.div>
 
@@ -238,11 +234,11 @@ export default function Home() {
               </div>
               <div className="stats-text bg-white/90 backdrop-blur-sm rounded-xl px-4 py-2 shadow-md border border-gray-200">
                 <CountUp end={120} suffix="+" className="font-bold text-blue-700" />{" "}
-                <span className="text-gray-800 font-semibold">projets livrés</span>
+                <span className="text-gray-800 font-semibold">{t("process.stats.deliveredLabel")}</span>
               </div>
               <div className="stats-text bg-white/90 backdrop-blur-sm rounded-xl px-4 py-2 shadow-md border border-gray-200">
                 <CountUp end={3} className="font-bold text-blue-700" />{" "}
-                <span className="text-gray-800 font-semibold">semaines en moyenne</span>
+                <span className="text-gray-800 font-semibold">{t("process.stats.avgDaysLabel")}</span>
               </div>
             </motion.div>
           </div>
@@ -262,28 +258,28 @@ export default function Home() {
                   IA
                 </div>
                 <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                  Automatisation Intelligente
+                  {t("offer.automation.title")}
                 </h3>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">✓</span>
-                    <span>Chatbots & assistants virtuels</span>
+                    <span>{t("offer.automation.features.0")}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">✓</span>
-                    <span>Automatisation des tâches répétitives</span>
+                    <span>{t("offer.automation.features.1")}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">✓</span>
-                    <span>Traitement intelligent de documents</span>
+                    <span>{t("offer.automation.features.2")}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">✓</span>
-                    <span>Service client 24/7</span>
+                    <span>{t("offer.automation.features.3")}</span>
                   </li>
                 </ul>
                 <Button to="/contact" className="w-full">
-                  Découvrir l'automatisation IA
+                  {t("offer.automation.cta")}
                 </Button>
               </Card>
 
@@ -292,28 +288,28 @@ export default function Home() {
                   IA
                 </div>
                 <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  Applications IA Sur Mesure
+                  {t("offer.applications.title")}
                 </h3>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <span className="text-blue-500 mr-2">✓</span>
-                    <span>Apps mobiles intelligentes</span>
+                    <span>{t("offer.applications.features.0")}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-500 mr-2">✓</span>
-                    <span>Analyse prédictive de données</span>
+                    <span>{t("offer.applications.features.1")}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-500 mr-2">✓</span>
-                    <span>Vision par ordinateur</span>
+                    <span>{t("offer.applications.features.2")}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-500 mr-2">✓</span>
-                    <span>Intégration CRM avec IA</span>
+                    <span>{t("offer.applications.features.3")}</span>
                   </li>
                 </ul>
                 <Button to="/contact" className="w-full">
-                  Créer votre app IA
+                  {t("offer.applications.cta")}
                 </Button>
               </Card>
             </div>
@@ -321,13 +317,13 @@ export default function Home() {
             {/* Offre site vitrine en secondaire */}
             <Card className="bg-gradient-to-r from-gray-50 to-blue-50 border border-gray-200">
               <div className="text-center">
-                <h3 className="text-xl font-semibold mb-2 text-gray-700">Solution Web Classique</h3>
+                <h3 className="text-xl font-semibold mb-2 text-gray-700">{t("offer.classic.title")}</h3>
                 <div className="flex items-center justify-center space-x-4 mb-4">
-                  <span className="text-3xl font-bold text-blue-600">800€</span>
-                  <span className="text-gray-600">• Site vitrine complet • Pages illimitées</span>
+                  <span className="text-3xl font-bold text-blue-600">{t("offer.classic.price")}</span>
+                  <span className="text-gray-600">{t("offer.classic.description")}</span>
                 </div>
                 <Button size="sm" to="/contact" variant="secondary">
-                  En savoir plus
+                  {t("offer.classic.cta")}
                 </Button>
               </div>
             </Card>
@@ -368,12 +364,12 @@ export default function Home() {
                             d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                           />
                         </svg>
-                        {index === 0 && "2-3 jours"}
-                        {index === 1 && "1-2 jours"}
-                        {index === 2 && "3-5 jours"}
-                        {index === 3 && "5-7 jours"}
-                        {index === 4 && "Continu"}
-                        {index === 5 && "2-3 semaines"}
+                        {index === 0 && t("process.steps.ai_analysis.duration")}
+                        {index === 1 && t("process.steps.ai_strategy.duration")}
+                        {index === 2 && t("process.steps.ai_prototype.duration")}
+                        {index === 3 && t("process.steps.ai_integration.duration")}
+                        {index === 4 && t("process.steps.ai_optimization.duration")}
+                        {index === 5 && t("process.steps.ai_scaling.duration")}
                       </div>
                     </div>
                   </Card>
@@ -407,7 +403,7 @@ export default function Home() {
                     suffix="+"
                     className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
                   />
-                  <p className="text-gray-700 font-medium">sites livrés</p>
+                  <p className="text-gray-700 font-medium">{t("process.stats.sitesDeliveredLabel")}</p>
                 </div>
               </div>
               <div className="relative">
@@ -417,7 +413,7 @@ export default function Home() {
                     end={3}
                     className="text-4xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent"
                   />
-                  <p className="text-gray-700 font-medium">semaines en moyenne</p>
+                  <p className="text-gray-700 font-medium">{t("process.stats.avgDaysLabel")}</p>
                 </div>
               </div>
             </div>
@@ -509,7 +505,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-8">
-            <Button to="/faq">Voir toutes les questions</Button>
+            <Button to="/faq">{t("faq.viewAll")}</Button>
           </div>
         </div>
       </Section>

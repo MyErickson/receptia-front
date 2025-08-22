@@ -27,6 +27,32 @@
     "title": "AI Agent & Generative AI Solutions",
     "subtitle": "AI Agents • Generative AI • Mobile Applications 974",
     "popular": "Most requested",
+    "automation": {
+      "title": "Intelligent Automation",
+      "features": [
+        "Chatbots & virtual assistants",
+        "Repetitive task automation",
+        "Intelligent document processing",
+        "24/7 customer service"
+      ],
+      "cta": "Discover AI automation"
+    },
+    "applications": {
+      "title": "Custom AI Applications",
+      "features": [
+        "Smart mobile apps",
+        "Predictive data analysis",
+        "Computer vision",
+        "CRM integration with AI"
+      ],
+      "cta": "Create your AI app"
+    },
+    "classic": {
+      "title": "Classic Web Solution",
+      "price": "€800",
+      "description": "• Complete showcase site • Unlimited pages",
+      "cta": "Learn more"
+    },
     "includes": {
       "title": "Our AI expertise",
       "items": [
@@ -44,34 +70,43 @@
     "title": "A simple journey, from idea to launch",
     "subtitle": "6 clear steps for your project",
     "steps": {
-      "discovery": {
-        "title": "Discovery",
-        "desc": "Discussion about your needs and goals"
+      "ai_analysis": {
+        "title": "AI Needs Analysis",
+        "desc": "Audit of your business processes and identification of AI automation opportunities",
+        "duration": "2-3 days"
       },
-      "framing": {
-        "title": "Framing",
-        "desc": "Scope and timeline definition"
+      "ai_strategy": {
+        "title": "Personalized AI Strategy",
+        "desc": "Design of an AI roadmap adapted to your objectives and technical constraints",
+        "duration": "1-2 days"
       },
-      "design": {
-        "title": "Design",
-        "desc": "Creating your visual identity"
+      "ai_prototype": {
+        "title": "Rapid AI Prototype",
+        "desc": "Development of an AI MVP to validate concepts and measure impact",
+        "duration": "3-5 days"
       },
-      "development": {
-        "title": "Development",
-        "desc": "Coding and integrating your site"
+      "ai_integration": {
+        "title": "Integration & Deployment",
+        "desc": "AI integration into your existing systems with team training",
+        "duration": "5-7 days"
       },
-      "review": {
-        "title": "Review",
-        "desc": "Testing and final adjustments"
+      "ai_optimization": {
+        "title": "Continuous Optimization",
+        "desc": "AI performance monitoring and continuous algorithm improvement",
+        "duration": "Ongoing"
       },
-      "launch": {
-        "title": "Launch",
-        "desc": "Deployment and training"
+      "ai_scaling": {
+        "title": "Scaling Up",
+        "desc": "AI extension to other processes and large-scale deployment",
+        "duration": "2-3 weeks"
       }
     },
     "stats": {
       "delivered": "{{count}} sites delivered",
-      "avgDays": "{{days}} days on average"
+      "avgDays": "{{days}} weeks on average",
+      "deliveredLabel": "projects delivered",
+      "avgDaysLabel": "weeks on average",
+      "sitesDeliveredLabel": "sites delivered"
     }
   },
   "services": {
@@ -112,10 +147,28 @@
   },
   "testimonials": {
     "title": "They trust us",
-    "subtitle": "Over 120 successfully delivered projects"
+    "subtitle": "Over 120 successfully delivered projects",
+    "items": [
+      {
+        "name": "Marie Dubois",
+        "content": "Our AI chatbot revolutionized our customer service. 80% of requests handled automatically!",
+        "rating": 5
+      },
+      {
+        "name": "Pierre Martin",
+        "content": "Process automation saves us 15 hours per week. Incredible ROI.",
+        "rating": 5
+      },
+      {
+        "name": "Sophie Laurent", 
+        "content": "AI analysis of our data helps us better understand our customers. Impressive results.",
+        "rating": 5
+      }
+    ]
   },
   "faq": {
     "title": "Frequently asked questions",
+    "viewAll": "View all questions",
     "items": {
       "ai_benefits": {
         "q": "What are the concrete benefits of AI for my business?",

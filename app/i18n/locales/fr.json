@@ -27,6 +27,32 @@
     "title": "Solutions Agent IA & IA Générative",
     "subtitle": "Agent IA • IA Générative • Applications Mobiles 974",
     "popular": "Le plus demandé",
+    "automation": {
+      "title": "Automatisation Intelligente",
+      "features": [
+        "Chatbots & assistants virtuels",
+        "Automatisation des tâches répétitives", 
+        "Traitement intelligent de documents",
+        "Service client 24/7"
+      ],
+      "cta": "Découvrir l'automatisation IA"
+    },
+    "applications": {
+      "title": "Applications IA Sur Mesure",
+      "features": [
+        "Apps mobiles intelligentes",
+        "Analyse prédictive de données",
+        "Vision par ordinateur",
+        "Intégration CRM avec IA"
+      ],
+      "cta": "Créer votre app IA"
+    },
+    "classic": {
+      "title": "Solution Web Classique",
+      "price": "800€",
+      "description": "• Site vitrine complet • Pages illimitées",
+      "cta": "En savoir plus"
+    },
     "includes": {
       "title": "Nos expertises IA",
       "items": [
@@ -44,34 +70,43 @@
     "title": "Un parcours simple, de l'idée à la mise en ligne",
     "subtitle": "6 étapes claires pour votre projet",
     "steps": {
-      "discovery": {
-        "title": "Découverte",
-        "desc": "Échange sur vos besoins et objectifs"
+      "ai_analysis": {
+        "title": "Analyse des besoins IA",
+        "desc": "Audit de vos processus métier et identification des opportunités d'automatisation IA",
+        "duration": "2-3 jours"
       },
-      "framing": {
-        "title": "Cadrage",
-        "desc": "Définition du périmètre et planning"
+      "ai_strategy": {
+        "title": "Stratégie IA personnalisée",
+        "desc": "Conception d'une roadmap IA adaptée à vos objectifs et contraintes techniques",
+        "duration": "1-2 jours"
       },
-      "design": {
-        "title": "Design",
-        "desc": "Création de votre identité visuelle"
+      "ai_prototype": {
+        "title": "Prototype IA rapide",
+        "desc": "Développement d'un MVP IA pour valider les concepts et mesurer l'impact",
+        "duration": "3-5 jours"
       },
-      "development": {
-        "title": "Développement",
-        "desc": "Codage et intégration de votre site"
+      "ai_integration": {
+        "title": "Intégration & déploiement",
+        "desc": "Intégration de l'IA dans vos systèmes existants avec formation de vos équipes",
+        "duration": "5-7 jours"
       },
-      "review": {
-        "title": "Recette",
-        "desc": "Tests et ajustements finaux"
+      "ai_optimization": {
+        "title": "Optimisation continue",
+        "desc": "Monitoring des performances IA et amélioration continue des algorithmes",
+        "duration": "Continu"
       },
-      "launch": {
-        "title": "Mise en ligne",
-        "desc": "Déploiement et formation"
+      "ai_scaling": {
+        "title": "Montée en charge",
+        "desc": "Extension de l'IA à d'autres processus et déploiement à grande échelle",
+        "duration": "2-3 semaines"
       }
     },
     "stats": {
       "delivered": "{{count}} sites livrés",
-      "avgDays": "{{days}} jours en moyenne"
+      "avgDays": "{{days}} semaines en moyenne",
+      "deliveredLabel": "projets livrés",
+      "avgDaysLabel": "semaines en moyenne",
+      "sitesDeliveredLabel": "sites livrés"
     }
   },
   "services": {
@@ -112,10 +147,28 @@
   },
   "testimonials": {
     "title": "Ils nous font confiance",
-    "subtitle": "Plus de 120 projets livrés avec succès"
+    "subtitle": "Plus de 120 projets livrés avec succès",
+    "items": [
+      {
+        "name": "Marie Dubois",
+        "content": "Notre chatbot IA a révolutionné notre service client. 80% de demandes traitées automatiquement !",
+        "rating": 5
+      },
+      {
+        "name": "Pierre Martin", 
+        "content": "L'automatisation de nos processus nous fait gagner 15h par semaine. ROI incroyable.",
+        "rating": 5
+      },
+      {
+        "name": "Sophie Laurent",
+        "content": "L'analyse IA de nos données nous aide à mieux comprendre nos clients. Résultats impressionnants.",
+        "rating": 5
+      }
+    ]
   },
   "faq": {
     "title": "Questions fréquentes",
+    "viewAll": "Voir toutes les questions",
     "items": {
       "ai_benefits": {
         "q": "Quels sont les bénéfices concrets de l'IA pour mon entreprise ?",
