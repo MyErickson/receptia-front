@@ -18,4 +18,49 @@ export default defineConfig({
       },
     },
   ],
+
+  build: {
+    rollupOptions: {
+      output: {
+        // Manual chunk splitting for better caching
+        manualChunks: {
+          // Core React libraries
+          react: ["react", "react-dom"],
+
+          // Animation libraries
+          animations: ["framer-motion"],
+
+          // Internationalization
+          i18n: ["react-i18next", "i18next"],
+
+          // Router and navigation
+          router: ["react-router"],
+        },
+      },
+    },
+
+    // Enable advanced minification
+    minify: "terser",
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
+    },
+
+    // Optimize CSS
+    cssCodeSplit: true,
+
+    // Asset optimization
+    assetsInlineLimit: 4096, // Inline assets smaller than 4kb
+
+    // Report compressed size
+    reportCompressedSize: true,
+  },
+
+  // Optimize for performance
+  optimizeDeps: {
+    include: ["react", "react-dom"],
+    exclude: ["@react-router/dev"],
+  },
 });

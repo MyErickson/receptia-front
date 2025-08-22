@@ -143,8 +143,9 @@
   }
 
   .hero-subtitle {
-    font-size: clamp(1.5rem, 3vw, 2rem) !important; /* 24px à 32px */
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem) !important; /* 20px à 28px - reduced size for faster LCP */
     font-weight: 500;
+    line-height: 1.4;
   }
 
   .section-title {

@@ -1,16 +1,21 @@
 /** biome-ignore-all lint/a11y/noSvgWithoutTitle: <> */
+
 import { motion } from "framer-motion";
+import { lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import { ScrollFloat } from "~/components/animations/Background";
 import { CountUp } from "~/components/animations/TextAnimation";
-import AnimatedHeroTitle from "~/components/ui/AnimatedHeroTitle";
 import { Button } from "~/components/ui/Button";
 import { Card } from "~/components/ui/Card";
-import HeroAnimation3D from "~/components/ui/HeroAnimation3D";
+import LightHeroTitle from "~/components/ui/LightHeroTitle";
 import { Section, SectionHeader } from "~/components/ui/Section";
+
 import { generateMeta } from "~/utils/seo";
 import { generateOrganizationSchema, generateWebsiteSchema } from "~/utils/structured-data";
 import type { Route } from "./+types/home";
+
+// Lazy load heavy components that aren't critical for LCP
+const HeroAnimation3D = lazy(() => import("~/components/ui/HeroAnimation3D"));
 
 export function meta(_: Route.MetaArgs) {
   return generateMeta({
@@ -185,8 +190,11 @@ export default function Home() {
         {/* Transition gradient to white at bottom */}
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white to-transparent" />
 
-        {/* Animation Layer - optimisée pour performance */}
-        <HeroAnimation3D className="absolute inset-0 z-0" />
+        {/* Animation Layer - lazy loaded for performance */}
+        <Suspense fallback={null}>
+          <HeroAnimation3D className="absolute inset-0 z-0" />
+        </Suspense>
+
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <motion.div
@@ -194,11 +202,9 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <AnimatedHeroTitle className="hero-title mb-6 bg-gradient-to-b from-gray-900 via-gray-800 to-black bg-clip-text text-transparent font-bold drop-shadow-sm">
-                {t("hero.headline")}
-              </AnimatedHeroTitle>
+              <LightHeroTitle>{t("hero.headline")}</LightHeroTitle>
               <p className="hero-subtitle text-gray-900 mb-6 font-semibold drop-shadow-sm">
-                {t("hero.subtitle")}
+                Agent IA & Apps Mobiles Intelligentes
               </p>
             </motion.div>
 
