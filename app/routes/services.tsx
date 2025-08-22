@@ -9,21 +9,21 @@ import type { Route } from "./+types/services";
 
 export function meta(_: Route.MetaArgs) {
   return generateMeta({
-    title: "Services App Mobile Réunion 974 | Développement IA & Applications",
+    title: "Services Agent IA & Mobile | Agence Web Spécialisée",
     description:
-      "Services développement d'applications mobiles et IA à l'île de la Réunion : création app mobile 974, chatbots intelligents, automatisation, solutions IA sur mesure.",
+      "Services Agent IA et applications mobiles intelligentes : création d'apps avec Agent IA intégrés, chatbots nouvelle génération, automatisation intelligente sur mesure.",
     url: "/services",
     keywords: [
-      "services app mobile réunion",
-      "développement app mobile 974",
-      "création application mobile réunion",
-      "services IA réunion",
-      "chatbots intelligents 974",
-      "automatisation IA réunion",
-      "applications mobiles sur mesure",
-      "intelligence artificielle 974",
-      "digitalisation entreprise réunion",
-      "agence mobile réunion",
+      "services agent IA",
+      "services agence web mobile",
+      "développement applications mobiles",
+      "agent IA intégrés",
+      "chatbots agent IA",
+      "automatisation agent IA",
+      "applications mobiles intelligentes",
+      "solutions agent IA",
+      "agence web spécialisée",
+      "intelligence artificielle mobile",
     ],
     canonical: true,
   });

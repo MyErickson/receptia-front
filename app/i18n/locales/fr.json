@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "App Mobile Île de la Réunion | Développement IA & Applications 974",
-    "description": "Développement d'applications mobiles et intelligence artificielle à l'île de la Réunion. Créateur d'app mobile 974, chatbots IA, automatisation. Agence digitale locale."
+    "title": "Agent IA & Mobile | Développement Applications Intelligence Artificielle",
+    "description": "Agence web spécialisée en Agent IA, IA générative et applications mobiles. Solutions intelligentes sur mesure, chatbots, automatisation digitale."
   },
   "nav": {
     "home": "Accueil",
@@ -14,8 +14,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "headline": "Créateur d'App Mobile à l'île de la Réunion",
-    "subtitle": "Développement d'applications mobiles et solutions IA 974. Transformez votre idée en app mobile performante avec l'intelligence artificielle.",
+    "headline": "Agent IA & Mobile - Nouvelle Génération",
+    "subtitle": "Agence web spécialisée en Agent IA, IA générative et applications mobiles. Transformez votre entreprise avec des solutions intelligentes de nouvelle génération.",
     "segments": ["pour PME", "pour créateurs", "pour associations", "pour startups"],
     "cta": {
       "primary": "Découvrir nos solutions IA",
@@ -24,18 +24,18 @@
     "trust": "Note moyenne 4.9/5 sur {{count}} projets livrés"
   },
   "offer": {
-    "title": "Solutions d'Intelligence Artificielle",
-    "subtitle": "Digitalisation • Automatisation • Innovation",
+    "title": "Solutions Agent IA & IA Générative",
+    "subtitle": "Agent IA • IA Générative • Applications Mobiles",
     "popular": "Le plus demandé",
     "includes": {
       "title": "Nos expertises IA",
       "items": [
-        "Assistants virtuels intelligents",
-        "Chatbots conversationnels avancés",
-        "Automatisation des processus métier",
-        "Analyse prédictive de données",
-        "Traitement automatique d'images/textes",
-        "Intégration IA dans vos outils existants"
+        "Agent IA autonomes et intelligents",
+        "IA générative avancée",
+        "Applications mobiles avec Agent IA",
+        "Automatisation intelligente",
+        "Chatbots nouvelle génération",
+        "Intégration Agent IA dans vos systèmes"
       ]
     },
     "cta": "Commencer votre transformation IA"
@@ -75,12 +75,12 @@
     }
   },
   "services": {
-    "title": "Développement App Mobile Réunion 974",
-    "subtitle": "Création d'applications mobiles et solutions IA à l'île de la Réunion",
+    "title": "Agent IA & Mobile - Solutions Complètes",
+    "subtitle": "Agence web spécialisée : Agent IA, IA générative, applications mobiles",
     "items": {
       "ai_assistant": {
-        "title": "Assistants IA & Chatbots",
-        "desc": "Automatisez votre service client 24/7 avec l'IA",
+        "title": "Agent IA & Chatbots",
+        "desc": "Automatisez votre service client 24/7 avec des Agent IA autonomes",
         "price": "À partir de 2000€"
       },
       "ai_automation": {
@@ -94,8 +94,8 @@
         "price": "À partir de 3000€"
       },
       "ai_apps": {
-        "title": "Applications Mobiles IA",
-        "desc": "Création d'app mobile intelligente à la Réunion avec IA intégrée",
+        "title": "Applications Mobiles Agent IA",
+        "desc": "Création d'applications mobiles avec Agent IA intégrés",
         "price": "Sur devis"
       },
       "showcase": {
@@ -104,8 +104,8 @@
         "price": "800€ tout compris"
       },
       "ai_integration": {
-        "title": "Intégration IA",
-        "desc": "Ajoutez l'IA à vos outils existants",
+        "title": "Intégration Agent IA",
+        "desc": "Ajoutez des Agent IA à vos systèmes existants",
         "price": "À partir de 1500€/mois"
       }
     }
@@ -151,7 +151,7 @@
   },
   "footer": {
     "company": "Receptia",
-    "tagline": "Votre créateur d'app mobile à l'île de la Réunion",
+    "tagline": "Votre agence web Agent IA & Mobile",
     "links": {
       "legal": "Mentions légales",
       "privacy": "Politique de confidentialité",
@@ -296,20 +296,20 @@
   },
   "appMobileReunion": {
     "meta": {
-      "title": "Développement App Mobile Île de la Réunion 974 | Création Application",
-      "description": "Créateur d'applications mobiles à l'île de la Réunion. Développement app mobile Android/iOS 974, solutions IA intégrées. Agence locale spécialisée apps mobiles."
+      "title": "Agent IA & Mobile - Développement Applications",
+      "description": "Agence web spécialisée en Agent IA et applications mobiles. Création d'applications avec Agent IA intégrés, solutions intelligentes nouvelle génération."
     },
     "hero": {
-      "title": "Développement App Mobile Île de la Réunion 974",
-      "subtitle": "Créateur d'applications mobiles à l'île de la Réunion. Développement iOS, Android et solutions hybrides avec intelligence artificielle intégrée.",
+      "title": "Agent IA & Mobile - Développement Applications",
+      "subtitle": "Agence web spécialisée en Agent IA et applications mobiles. Création iOS, Android avec Agent IA intégrés et IA générative.",
       "cta": {
         "primary": "Créer mon app mobile",
         "secondary": "Devis gratuit"
       }
     },
     "services": {
-      "title": "Services Développement App Mobile 974",
-      "subtitle": "Solutions mobiles complètes pour l'île de la Réunion",
+      "title": "Services Agent IA & Mobile",
+      "subtitle": "Applications mobiles avec Agent IA intégrés",
       "items": {
         "native_ios": {
           "title": "Applications iOS Natives",
@@ -366,20 +366,20 @@
         },
         "ecommerce_mobile": {
           "title": "Apps E-commerce Mobile",
-          "desc": "Applications mobiles de vente en ligne optimisées pour la Réunion",
+          "desc": "Applications mobiles de vente en ligne performantes et optimisées",
           "price": "À partir de 5000€",
           "features": [
             "Boutique mobile native",
             "Paiement sécurisé",
             "Gestion catalogue",
-            "Livraison locale 974",
+            "Livraison optimisée",
             "Notifications promotions",
             "Analytics intégrés"
           ]
         },
         "ai_mobile_apps": {
-          "title": "Apps Mobile + IA",
-          "desc": "Applications mobiles intelligentes avec IA intégrée pour l'île de la Réunion",
+          "title": "Apps Mobile + Agent IA",
+          "desc": "Applications mobiles intelligentes avec Agent IA intégrés et IA générative",
           "price": "À partir de 6000€",
           "features": [
             "Reconnaissance vocale",
@@ -429,12 +429,12 @@
       ]
     },
     "benefits": {
-      "title": "Pourquoi choisir notre agence mobile Réunion ?",
-      "subtitle": "Les avantages de travailler avec une équipe locale",
+      "title": "Pourquoi choisir notre agence web Agent IA ?",
+      "subtitle": "Les avantages de l'ère Agent IA",
       "items": [
         {
-          "title": "Expertise Locale Réunion",
-          "desc": "Connaissance du marché local 974 et des spécificités réunionnaises"
+          "title": "Expertise Agent IA & Mobile",
+          "desc": "Maîtrise des Agent IA, IA générative et développement mobile"
         },
         {
           "title": "Technologies Modernes",
@@ -442,33 +442,33 @@
         },
         {
           "title": "Support Technique",
-          "desc": "Équipe technique disponible et réactive basée à la Réunion"
+          "desc": "Équipe technique disponible et réactive pour tous vos projets"
         },
         {
           "title": "Prix Transparents",
-          "desc": "Devis détaillés, pas de coûts cachés, tarifs adaptés au marché local"
+          "desc": "Devis détaillés, pas de coûts cachés, tarifs compétitifs"
         }
       ]
     },
     "localSeo": {
-      "title": "Développement App Mobile à l'Île de la Réunion",
+      "title": "Agent IA & Mobile - Nouvelle Génération",
       "coverage": {
-        "title": "Couverture Géographique 974",
+        "title": "Zones d'Intervention",
         "cities": [
-          "Saint-Denis - Agence mobile principale",
-          "Saint-Pierre - Développement app sud",
-          "Le Port - Applications logistique",
-          "Saint-Paul - Apps touristiques",
-          "Saint-Louis - Solutions e-commerce",
-          "Sainte-Marie - Apps entreprise"
+          "Applications mobiles avec Agent IA",
+          "Solutions Agent IA pour entreprises",
+          "Apps e-commerce intelligentes",
+          "Applications secteur touristique",
+          "Solutions logistique automatisées",
+          "Agent IA métier sur mesure"
         ]
       },
       "sectors": {
         "title": "Secteurs d'Activité",
         "items": [
-          "Tourisme et hôtellerie Réunion",
-          "Commerce local et e-commerce",
-          "Services aux entreprises 974",
+          "Tourisme et hôtellerie",
+          "Commerce et e-commerce",
+          "Services aux entreprises",
           "Agriculture et agro-alimentaire",
           "Transport et logistique",
           "Santé et bien-être"
@@ -476,8 +476,8 @@
       }
     },
     "finalCta": {
-      "title": "Prêt à créer votre application mobile ?",
-      "subtitle": "Contactez notre équipe de développeurs mobiles basée à l'île de la Réunion",
+      "title": "Prêt à créer votre application mobile avec Agent IA ?",
+      "subtitle": "Contactez notre agence web spécialisée en Agent IA, IA générative et applications mobiles",
       "cta": {
         "primary": "Démarrer mon projet d'app",
         "secondary": "Obtenir un devis gratuit"

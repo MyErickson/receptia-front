@@ -14,22 +14,22 @@ import type { Route } from "./+types/home";
 
 export function meta(_: Route.MetaArgs) {
   return generateMeta({
-    title: "App Mobile Île de la Réunion | Développement IA & Applications 974",
+    title: "Agent IA & Mobile - Nouvelle Génération | Agence Web",
     description:
-      "Développement d'applications mobiles et intelligence artificielle à l'île de la Réunion. Créateur d'app mobile, chatbots IA, automatisation. Agence digitale locale 974.",
+      "Agence web spécialisée en Agent IA, IA générative et applications mobiles. Solutions intelligentes nouvelle génération : Agent IA autonomes, chatbots avancés, automatisation.",
     url: "/",
     keywords: [
-      "app mobile île de la réunion",
-      "développement application mobile 974",
-      "créateur app mobile réunion",
-      "agence mobile saint denis",
-      "intelligence artificielle réunion",
-      "automatisation IA 974",
-      "chatbots intelligents réunion",
-      "solutions IA réunion",
-      "digitalisation entreprise 974",
-      "agence digitale réunion",
-      "développement mobile réunion",
+      "agent IA",
+      "agent IA mobile",
+      "agence web agent IA",
+      "IA générative",
+      "applications mobiles intelligentes",
+      "automatisation agent IA",
+      "chatbots agent IA",
+      "solutions agent IA",
+      "développement mobile IA",
+      "agence web mobile",
+      "intelligence artificielle mobile",
     ],
     canonical: true,
   });
