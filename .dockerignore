@@ -1,4 +1,63 @@
+# Build outputs
 .react-router
 build
+dist
 node_modules
+
+# Dependencies
+npm-debug.log*
+package-lock.json.bak
+
+# Development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Documentation
 README.md
+docs
+CHANGELOG.md
+
+# Test files
+coverage
+*.test.*
+__tests__
+
+# Logs
+logs
+*.log
+
+# TypeScript cache
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Biome cache
+.biome
+
+# Temporary folders
+tmp
+temp
+
+# Docker files (not needed in container)
+Dockerfile*
+docker-compose*
+
+# Cloud Build
+.gcloudignore

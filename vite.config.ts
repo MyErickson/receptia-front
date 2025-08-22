@@ -22,19 +22,20 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        // Manual chunk splitting for better caching
-        manualChunks: {
-          // Core React libraries
-          react: ["react", "react-dom"],
-
-          // Animation libraries
-          animations: ["framer-motion"],
-
-          // Internationalization
-          i18n: ["react-i18next", "i18next"],
-
-          // Router and navigation
-          router: ["react-router"],
+        // Use function-based chunk splitting for React Router v7 compatibility
+        manualChunks(id) {
+          // Vendor chunk for node_modules
+          if (id.includes("node_modules")) {
+            // Separate chunks for large libraries
+            if (id.includes("framer-motion")) {
+              return "animations";
+            }
+            if (id.includes("react-i18next") || id.includes("i18next")) {
+              return "i18n";
+            }
+            // Other vendor dependencies
+            return "vendor";
+          }
         },
       },
     },
