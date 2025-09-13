@@ -18,11 +18,12 @@ export default function Privacy() {
     {
       title: "1. Responsable du traitement",
       icon: "🏢",
-      content: `Receptia, société spécialisée dans les solutions d'intelligence artificielle, est responsable du traitement de vos données personnelles.
+      content: `Receptia, société spécialisée dans les solutions d'intelligence artificielle qui crée des applications mobiles sur mesure pour les entreprises et startups. 🚀, est responsable du traitement de vos données personnelles.
 
 Contact du délégué à la protection des données :
-Email : privacy@receptia.fr
-Adresse : 123 Avenue de la République, 75011 Paris, France
+Email : contact@receptia.fr
+Adresse : [Adresse à préciser]
+SIRET : 99071384400027
 
 Nous nous engageons à respecter scrupuleusement la réglementation RGPD et à protéger vos données personnelles avec le plus grand soin.`,
     },
@@ -243,9 +244,9 @@ Notification des modifications :
 • Archives des versions antérieures disponibles
 
 Contact et réclamations :
-Email : privacy@receptia.fr
-Téléphone : +33 1 23 45 67 89
-Adresse postale : 123 Avenue de la République, 75011 Paris
+Email : contact@receptia.fr
+Téléphone : +33 6 93 44 35 48
+Adresse postale : [Adresse à préciser]
 
 Droit de réclamation :
 Vous pouvez introduire une réclamation auprès de la CNIL si vous estimez que vos droits ne sont pas respectés.
@@ -360,7 +361,7 @@ Téléphone : 01 53 73 22 22`,
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="mailto:privacy@receptia.fr"
+                    href="mailto:contact@receptia.fr"
                     className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-600 to-blue-600 text-white font-semibold rounded-lg hover:from-green-700 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
                   >
                     <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
