@@ -22,7 +22,7 @@ export default function Privacy() {
 
 Contact du délégué à la protection des données :
 Email : contact@receptia.fr
-Adresse : [Adresse à préciser]
+Adresse : 21 D rue de la petite source réunion
 SIRET : 99071384400027
 
 Nous nous engageons à respecter scrupuleusement la réglementation RGPD et à protéger vos données personnelles avec le plus grand soin.`,
@@ -246,7 +246,7 @@ Notification des modifications :
 Contact et réclamations :
 Email : contact@receptia.fr
 Téléphone : +33 6 93 44 35 48
-Adresse postale : [Adresse à préciser]
+Adresse postale : 21 D rue de la petite source réunion
 
 Droit de réclamation :
 Vous pouvez introduire une réclamation auprès de la CNIL si vous estimez que vos droits ne sont pas respectés.
