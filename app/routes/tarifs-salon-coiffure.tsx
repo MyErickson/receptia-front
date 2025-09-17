@@ -13,7 +13,7 @@ export default function DevisSalonCoiffure() {
       <div className="max-w-4xl mx-auto my-5 bg-white rounded-xl shadow-lg overflow-hidden">
         {/* Header */}
         <header className="bg-gradient-to-r from-slate-800 to-slate-700 text-white px-8 py-10 text-center">
-          <h1 className="text-3xl font-bold mb-2.5 tracking-tight">
+          <h1 className="text-3xl font-bold mb-2.5 tracking-tight text-white">
             TARIFS - Application Mobile Salon de Coiffure
           </h1>
           <div className="text-base opacity-90 font-normal">
