@@ -15,6 +15,8 @@ export default [
     route("legal", "routes/legal.tsx"),
     route("privacy", "routes/privacy.tsx"),
     route("terms", "routes/terms.tsx"),
+    route("tarifs-salon-coiffure", "routes/tarifs-salon-coiffure.tsx"),
+    route("tarifs-app-restaurant", "routes/tarifs-app-restaurant.tsx"),
     route("*", "routes/404.tsx"),
   ]),
 ] satisfies RouteConfig;
